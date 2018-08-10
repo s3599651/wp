@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Assignment 2</title>
-    
+
     <!-- Keep wireframe.css for debugging, add your css to style.css -->
     <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
     <link id='stylecss' type="text/css" rel="stylesheet" href="css/style.css">
@@ -17,7 +17,12 @@
     </header>
 
     <nav>
-      <div>Put website navigation links here</div>
+      <ul>
+        <li> <a class = "active" href = "Home.php">Home</a></li>
+        <li> <a href = "">Products</a></li>
+        <li> <a href = "">Login</a></li>
+      </ul>
+      <!-- <div>Put website navigation links here</div> -->
     </nav>
 
     <main>
