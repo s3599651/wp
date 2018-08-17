@@ -10,7 +10,7 @@ body{
   /* font-family:; */
 }
 
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -19,16 +19,11 @@ ul {
   position: sticky;
   top: 0;
 }
-nav a{
-  display: block;
-  padding: 10px;
-  text-decoration: none;
 
-}
-li{
+nav {
   float: left;
 }
-li a{
+nav a{
   display: block;
   color: white;
   text-align: center;
@@ -37,10 +32,10 @@ li a{
 
 }
 
-li a:hover{
+nav li a:hover{
   background-color: #111;
 }
 
-.active{
+nav li a .active{
   background-color: #4CAF50;
 }
