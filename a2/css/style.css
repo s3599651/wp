@@ -1,4 +1,15 @@
 /* Insert your styles here */
+*{
+  box-sizing: border-box;
+}
+
+/* BODY */
+body{
+  /* top, right, bottom, left */
+  margin: 0px 0px 0px 0px;
+  /* font-family:; */
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -8,7 +19,12 @@ ul {
   position: sticky;
   top: 0;
 }
+nav a{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
 
+}
 li{
   float: left;
 }

@@ -13,18 +13,20 @@
   <body>
 
     <header>
-      <div>Put company logo and name here</div>
-    </header>
 
-    <nav>
+      <div>Put company logo and name here</div>
+
+    <nav id = "menu">
       <ul>
-        <li> <a class = "active" href = "Home.php">Home</a></li>
+        <li> <a class = "active" href = "index.php">Home</a></li>
         <li> <a href = "">Products</a></li>
         <li> <a href = "login.php">Login</a></li>
       </ul>
       <!-- <div>Put website navigation links here</div> -->
     </nav>
+  </header>
 
+<!-- article means content that is unrelated to the page-->
     <main>
       <article id='Website Under Construction'>
     <!-- Creative Commons image sourced from https://pixabay.com/en/maintenance-under-construction-2422173/ and used for educational purposes only -->

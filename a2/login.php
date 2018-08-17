@@ -18,7 +18,7 @@
 
     <nav>
       <ul>
-        <li> <a href = "Home.php">Home</a></li>
+        <li> <a href = "index.php">Home</a></li>
         <li> <a href = "">Products</a></li>
         <li> <a class = "active" href = "login.php">Login</a></li>
       </ul>
