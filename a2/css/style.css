@@ -20,7 +20,7 @@ nav ul {
   top: 0;
 }
 
-nav {
+nav li{
   float: left;
 }
 nav a{
@@ -36,6 +36,6 @@ nav li a:hover{
   background-color: #111;
 }
 
-nav li a .active{
+nav li a:active{
   background-color: #4CAF50;
 }
