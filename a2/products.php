@@ -18,8 +18,8 @@
 
     <nav id = "menu">
       <ul>
-        <li> <a class = "active" href = "index.php">Home</a></li>
-        <li> <a href = "">Products</a></li>
+        <li> <a href = "index.php">Home</a></li>
+        <li> <a class active = "active" href = "">Products</a></li>
         <li> <a href = "login.php">Login</a></li>
       </ul>
       <!-- <div>Put website navigation links here</div> -->
