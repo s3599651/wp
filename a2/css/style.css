@@ -12,7 +12,8 @@ body{
 
 main{
   margin: 0px 0px 0px 0px;
-  
+  padding: 5px;
+  box-sizing: border-box;
 }
 
 nav ul {
@@ -43,4 +44,9 @@ nav li a:hover{
 
 nav li a .active{
   background-color: #4CAF50;
+}
+
+#t-shirt{
+  width: 200px;
+  height: 200px;
 }
