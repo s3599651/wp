@@ -10,6 +10,11 @@ body{
   /* font-family:; */
 }
 
+main{
+  margin: 0px 0px 0px 0px;
+  
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
