@@ -26,16 +26,21 @@
     </nav>
 
     <main>
-      <article id='Website Under Construction'>
-    <!-- Creative Commons image sourced from https://pixabay.com/en/maintenance-under-construction-2422173/ and used for educational purposes only -->
-        <img src='../../media/website-under-construction.png' alt='Website Under Construction' />
+      <article id='loginmenu'>
+        <form class = "form" id= "contact" method = "post" action = "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php">
+          <label for="Email"> Email address: </label> <input type = "email" name= "emailad" id ="email" value="" placeholder= "Email Address" required><br>
+          <label for = "password">Password:</lable><input type = "password" id "password" value="Mouse" placeholder = "required"><br>
+          <input type = "submit" value = "Submit">
+          <!-- <input type = "reset" value = "Reset Buttom">
+          <input type = "button" value = "Hi Button!"> -->
+        </form>
       </article>
     </main>
 
     <footer>
       <div>&copy;<script>
         document.write(new Date().getFullYear());
-      </script> Put your name(s), student number(s) and group name here.</div>
+      </script> Chamila Rendage(s), s3599651(s)</div>
       <div>Disclaimer: This website is not a real website and is being developed as part of a School of Science Web Programming course at RMIT University in Melbourne, Australia.</div>
       <div><button id='toggleWireframeCSS' onclick='toggleWireframe()'>Toggle Wireframe CSS</button></div>
     </footer>
