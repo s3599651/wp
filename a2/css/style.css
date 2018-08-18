@@ -50,3 +50,7 @@ nav li a .active{
   width: 200px;
   height: 200px;
 }
+#t-shirt :hover{
+  border-style: solid;
+
+  }
