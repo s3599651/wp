@@ -52,5 +52,5 @@ nav li a .active{
 }
 #t-shirt :hover{
   border-style: solid;
-
+  border-width: 3px; 
   }
