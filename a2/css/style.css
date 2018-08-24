@@ -38,11 +38,22 @@ nav a{
 
 }
 
+nav li a:link {
+
+  color: white;
+
+}
+
+nav li a:visited{
+
+  color: red;
+}
+
 nav li a:hover{
   background-color: #111;
 }
 
-nav li a .active{
+nav li a :active {
   background-color: #4CAF50;
 }
 
