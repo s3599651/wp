@@ -27,7 +27,7 @@
 
     <main>
       <article id='loginmenu'>
-        <form class = "form" id= "contact" method = "post" action = "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php">
+        <form class = "loginform" id= "contact" method = "post" action = "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php">
           <label for="Email"> Email address: </label> <input type = "email" name= "email" id ="email" value="" placeholder= "Email Address" required><br>
           <label for = "Pass">Password:</lable><input type = "password" id name = "password" placeholder = "required"><br>
           <input type = "submit" value = "Submit">
