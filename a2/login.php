@@ -13,26 +13,24 @@
   <body>
 
     <header>
-      <div>Put company logo and name here</div>
+      <div id = "navigation">
+      <nav>
+        <ul>
+          <li> <a href = "index.php">Home</a></li>
+          <li> <a href = "products.php">Products</a></li>
+          <li> <a class = "active" href = "login.php">Login</a></li>
+        </ul>
+      </nav>
+    </div>
     </header>
 
-    <nav>
-      <ul>
-        <li> <a href = "index.php">Home</a></li>
-        <li> <a href = "products.php">Products</a></li>
-        <li> <a class = "active" href = "login.php">Login</a></li>
-      </ul>
-      <!-- <div>Put website navigation links here</div> -->
-    </nav>
-
     <main>
-      <article id='loginmenu'>
-        <form class = "loginform" id= "contact" method = "post" action = "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php">
+      <article id= "loginform">
+        <form class = "logform" id= "login" method = "post" action = "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php">
           <label for="Email"> Email address: </label> <input type = "email" name= "email" id ="email" value="" placeholder= "Email Address" required><br>
           <label for = "Pass">Password:</lable><input type = "password" id name = "password" placeholder = "required"><br>
           <input type = "submit" value = "Submit">
-          <!-- <input type = "reset" value = "Reset Buttom">
-          <input type = "button" value = "Hi Button!"> -->
+
         </form>
       </article>
     </main>
