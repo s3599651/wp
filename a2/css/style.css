@@ -46,10 +46,10 @@ nav li a .active{
   background-color: #4CAF50;
 }
 
-.t-shirt{
+/* .t-shirt{
   width: 200px;
   height: 200px;
-}
+} */
 .t-shirt :hover{
   border-style: solid;
   border-width: 3px;
