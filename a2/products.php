@@ -31,8 +31,7 @@
       <article >
     <h1> Products </h1>
     <div class = "t-shirt">
-      <p><img src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>
-      </p>
+    <img src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>  
     </div>
       </article>
     </main>
