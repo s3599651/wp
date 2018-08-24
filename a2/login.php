@@ -29,7 +29,7 @@
       <article id='loginmenu'>
         <form class = "form" id= "contact" method = "post" action = "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php">
           <label for="Email"> Email address: </label> <input type = "email" name= "emailad" id ="email" value="" placeholder= "Email Address" required><br>
-          <label for = "password">Password:</lable><input type = "password" id "password" placeholder = "required"><br>
+          <label for = "password">Password:</lable><input type = "password" id name = "passwordlad" placeholder = "required"><br>
           <input type = "submit" value = "Submit">
           <!-- <input type = "reset" value = "Reset Buttom">
           <input type = "button" value = "Hi Button!"> -->
