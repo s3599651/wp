@@ -82,3 +82,26 @@ nav li a :active {
   margin-left: auto;
   margin-right: auto;
 }
+
+.loginsubmit{
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: #827d7c;
+  border: none;
+  border-radius: 15px;
+
+}
+
+.loginsubmit:hover{
+  background-color: #9e9e9e;
+}
+
+.loginsubmit: active{
+  background-color: #9e9e9e;
+  transform: translateY(4px);
+}
