@@ -30,9 +30,10 @@
         <form class = "logform" id= "login" method = "post" action = "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php">
           <h2>User Login</h2>
           <div class = "emailholder"<label for="Email"> Email address: </label></div>
-          <input type = "email" name= "email" id ="email" value="" placeholder= "Email Address" required><br>
+          <input type = "email" name= "email" id ="Email" value="" placeholder= "Email Address" required><br>
           <div class = "passwordholder"><label for = "Pass">Password:</lablel></div>
-          <input type = "password" id name = "password" placeholder = "required"><br>
+          <input type = "password" id ="pass" name = "password">
+          <br>
           <input class = "loginsubmit" type = "submit" value = "Submit">
 
         </form>

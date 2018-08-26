@@ -92,7 +92,7 @@ nav li a :active {
 .loginsubmit{
   display: inline-block;
   padding: 5px 10px;
-  font-size: 15px;
+  font-size: 25px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -111,10 +111,21 @@ nav li a :active {
   background-color: #9e9e9e;
   transform: translateY(4px);
 }
-
+#email{
+  padding: 5px;
+  text-align: center;
+}
+#pass{
+  padding: 5px;
+  text-align: center;
+}
 .emailholder{
-font-size: 20px;
+font-size: 35px;
+text-align: center;
+padding: 5px;
 }
 .passwordholder{
-  font-size: 20px;
+  font-size: 35px;
+  text-align: center;
+  padding: 5px;
 }
