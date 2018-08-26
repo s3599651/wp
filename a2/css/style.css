@@ -4,7 +4,7 @@
 }
 
 /* BODY */
-body{
+body, header, main, footer{
   /* top, right, bottom, left */
   margin: 0px 0px 0px 0px;
   font-family:; 'Arimo', sans-serif;
