@@ -114,11 +114,12 @@ nav li a :active {
 #Email{
   padding: 5px;
   text-align: center;
-  font-size: 5px;
+  font-size: 20px;
   padding: 3px;
 }
 #pass{
-  padding: 5px;
+  padding: 3px;
+  font-size: 25px;
   text-align: center;
 }
 .emailholder{
