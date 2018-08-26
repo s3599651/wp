@@ -131,7 +131,13 @@ padding: 5px;
 }
 .emailbox{
   text-align: center;
+  font-size: 5px;
+  padding: 3px;
+
 }
 .passwordbox{
+  text-align: center;
+}
+.submitbox{
   text-align: center;
 }

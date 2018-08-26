@@ -29,14 +29,14 @@
       <article id= "loginform">
         <form class = "logform" id= "login" method = "post" action = "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php">
           <h2>User Login</h2>
-          <div class = "emailholder"<label for="Email"> Email address: </label></div>
+          <div class = "emailholder"><label for="Email"> Email address: </label></div>
         <div class = "emailbox"><input type = "email" name= "email" id ="Email" value="" placeholder= "Email Address" required></div>
           <br>
           <div class = "passwordholder"><label for = "Pass">Password:</lablel></div>
 
           <div class = "passwordbox"><input type = "password" id ="pass" name = "password"></div>
           <br>
-          <input class = "loginsubmit" type = "submit" value = "Submit">
+        <div class = "submitbox"><input class = "loginsubmit" type = "submit" value = "Submit"></div>
 
         </form>
       </article>
