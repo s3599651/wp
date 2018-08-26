@@ -7,7 +7,7 @@
 body{
   /* top, right, bottom, left */
   margin: 0px 0px 0px 0px;
-  /* font-family:; */
+  font-family:; 'Arimo', sans-serif;
 }
 
 main{
