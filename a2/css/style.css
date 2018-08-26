@@ -111,3 +111,10 @@ nav li a :active {
   background-color: #9e9e9e;
   transform: translateY(4px);
 }
+
+.emailholder{
+font-size: 20px;
+}
+.passwordholder{
+  font-size: 20px;
+}
