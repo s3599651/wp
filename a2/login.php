@@ -17,7 +17,7 @@
       <div id = "navigation">
       <nav>
         <ul>
-          <li> <a href = "index.php"><img src = "../../media/company_logo.png"></a></li>
+          <li> <a href = "index.php"><img  class = "navlogo" src = "../../media/company_logo.png"></a></li>
           <li> <a href = "index.php">Home</a></li>
           <li> <a href = "products.php">Products</a></li>
           <li> <a class = "active" href = "login.php">Login</a></li>
