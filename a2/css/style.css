@@ -149,3 +149,7 @@ padding: 5px;
 .submitbox{
   text-align: center;
 }
+.pagefooter{
+  background-color: #000000;
+  color: white;
+}
