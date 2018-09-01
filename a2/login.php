@@ -42,7 +42,7 @@
       </article>
     </main>
 
-    <footer>
+    <footer class = "pagefooter">
       <div>&copy;<script>
         document.write(new Date().getFullYear());
       </script> Chamila Rendage(s), s3599651(s)</div>
