@@ -153,8 +153,7 @@ padding: 5px;
   background-color: #000000;
   color: white;
 }
-.navlogo{
-height: 200px;
-width: 200px;
-padding: 5px;
+.logo{
+  text-align: center;
+
 }
