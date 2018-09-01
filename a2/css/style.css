@@ -10,6 +10,7 @@ body, header, main, footer{
   font-family:'Arimo', sans-serif;
 }
 
+
 h2{
   color: #4493af;
   padding: 10px;
@@ -87,6 +88,15 @@ nav li a :active {
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#loginform{
+  padding-left: 30px;
+  padding-right: 30px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: red;
+
 }
 
 .loginsubmit{
