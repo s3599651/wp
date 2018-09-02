@@ -34,8 +34,11 @@
       <div class = "productbox_1">
         <img id = "t-shirt_1" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>
       </div>
-      <div>
+      <div class = "product_info">
         <p> One punch man T-shirt</p>
+        <hr>
+        <p> Tee from the popular anime series One punch man </p>
+        <hr>
         <p> $20.00 </p>
       </div>
 
