@@ -71,9 +71,14 @@ nav li a :active {
   border-style: solid;
   border-width: 3px;
   }
+.productbox{
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+  }
   #t-shirt{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
   }
 
 .logform{
