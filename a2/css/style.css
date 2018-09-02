@@ -67,9 +67,13 @@ nav li a :active {
   width: 200px;
   height: 200px;
 } */
-.t-shirt :hover{
+.productbox :hover{
   border-style: solid;
   border-width: 3px;
+  }
+  #t-shirt{
+    height: 100px;
+    width: 100px;
   }
 
 .logform{

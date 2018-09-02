@@ -30,8 +30,8 @@
     <main id = "products">
       <article >
     <h1> Products </h1>
-    <div class = "t-shirt">
-    <img src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>
+    <div class = "productbox">
+    <img id = "t-shirt" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>
     </div>
       </article>
     </main>
