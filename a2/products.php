@@ -30,10 +30,17 @@
     <main id = "products">
       <article >
     <h1> Products </h1>
+  <div class = "row">
     <div class = "productbox">
-    <img class = "clothing" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>
-    <img class ="clothing" src = '../../media/anime jumper.jpg' alt = 'jumper'>
+      <img id = "t-shirt" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>
     </div>
+    <div class = "productbox">
+      <img id = "jumper" src = '../../media/anime jumper.jpg' alt = 'printed jumper'>
+    </div>
+    <div class = "productbox">
+      <img id = "pants" src = '../../media/dragonball_trackpants.jpeg' alt = 'trackpants'>
+    </div>
+  </div>
       </article>
     </main>
 
