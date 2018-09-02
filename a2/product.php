@@ -29,7 +29,7 @@
 <!-- article means content that is unrelated to the page-->
       <main id = "products">
         <article >
-      <h1> PRODUCTS </h1>
+      <h1> T-SHIRT </h1>
     <div class = "row">
       <div class = "productbox_1">
         <img id = "t-shirt_1" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>
@@ -41,6 +41,9 @@
         <hr>
         <p> $20.00 </p>
       </div>
+      <div>
+        <form method = "post" action = "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php"
+        <input type = "hidden" id = "name" name = "Anime tee" value = "tshirt0001">
 
     </main>
 
