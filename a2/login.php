@@ -14,7 +14,7 @@
   <body>
 
     <header>
-        <div><img class  ="logo" src = "../../media/company_logo.png"></div>
+        <div id = "logobox"><img class  ="logo" src = "../../media/company_logo.png"></div>
 
 
       <div id = "navigation">
