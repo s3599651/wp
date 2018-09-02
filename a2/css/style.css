@@ -56,7 +56,7 @@ nav li a:visited{
 }
 
 nav li a:hover{
-  background-color: #111;
+  background-color: #052559;
 }
 
 nav li a :active {
@@ -154,7 +154,7 @@ padding: 5px;
   color: white;
 }
 .logo{
-  
+
   height: 139px;
   width: 1349px;
 }
