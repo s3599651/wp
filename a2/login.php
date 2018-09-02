@@ -14,7 +14,7 @@
   <body>
 
     <header>
-        <div class = "logo"><img src = "../../media/company_logo.png"></div>
+        <div><img class  ="logo" src = "../../media/company_logo.png"></div>
 
 
       <div id = "navigation">
