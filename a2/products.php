@@ -33,7 +33,7 @@
   <div class = "row">
     <div class = "productbox">
 
-      <img id = "t-shirt" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'><a href = "index.php"></a>
+      <a href = "index.php"><img id = "t-shirt" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'></a>
     </div>
     <div>
       <p> One punch man T-shirt</p>
