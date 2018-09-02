@@ -32,6 +32,7 @@
     <h1> Products </h1>
     <div class = "productbox">
     <img id = "t-shirt" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>
+    <img src = '../../media/anime jumper.jpg' alt = 'jumper'>
     </div>
       </article>
     </main>
