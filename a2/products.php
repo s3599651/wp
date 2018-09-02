@@ -29,7 +29,7 @@
 <!-- article means content that is unrelated to the page-->
     <main id = "products">
       <article >
-    <h1> Products </h1>
+    <h1> PRODUCTS </h1>
   <div class = "row">
     <div class = "productbox">
       <img id = "t-shirt" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>

@@ -63,12 +63,12 @@ nav li a :active {
   background-color: #4CAF50;
 }
 
-/* .t-shirt{
-  width: 200px;
-  height: 200px;
-} */
-.row{
+.row {
   display: flex;
+}
+h1{
+  text-align: center;
+  font-size: 25px;
 }
 
 .productbox :hover{
@@ -78,11 +78,7 @@ nav li a :active {
 .productbox{
   flex: 50%;
   padding: 5px;
-
-  /* height: 200px;
-  width: 200px;
-  padding: 10px;
-  margin: 25px; */
+  margin: 25px;
   }
   #t-shirt{
     height: 200px;
