@@ -32,8 +32,7 @@
       <h1> PRODUCTS </h1>
     <div class = "row">
       <div class = "productbox_1">
-
-        <a href = "index.php"><img id = "t-shirt" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'></a>
+        <img id = "t-shirt_1" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>
       </div>
       <div>
         <p> One punch man T-shirt</p>
