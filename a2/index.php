@@ -14,7 +14,7 @@
 
     <header>
 
-      <div>Put company logo and name here</div>
+      <div id = "logobox"><img class  ="logo" src = "../../media/company_logo.png"></div>
 
     <nav id = "menu">
       <ul>

@@ -14,7 +14,7 @@
 
     <header>
 
-      <div>Put company logo and name here</div>
+      <div id = "logobox"><img class  ="logo" src = "../../media/company_logo.png"></div>
 
     <nav id = "menu">
       <ul>
@@ -31,7 +31,7 @@
       <article >
     <h1> Products </h1>
     <div class = "t-shirt">
-    <img src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>  
+    <img src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>
     </div>
       </article>
     </main>
