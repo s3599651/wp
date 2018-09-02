@@ -18,8 +18,8 @@
 
     <nav id = "menu">
       <ul>
-        <li> <a href = "index.php">Home</a></li>
-        <li> <a class active = "active" href = "">Products</a></li>
+        <li> <a class = "active" href = "index.php">Home</a></li>
+        <li> <a href = "products.php">Products</a></li>
         <li> <a href = "login.php">Login</a></li>
       </ul>
       <!-- <div>Put website navigation links here</div> -->
@@ -27,36 +27,27 @@
   </header>
 
 <!-- article means content that is unrelated to the page-->
-    <main id = "products">
-      <article >
-    <h1> PRODUCTS </h1>
-  <div class = "row">
-    <div class = "productbox">
+      <main id = "products">
+        <article >
+      <h1> PRODUCTS </h1>
+    <div class = "row">
+      <div class = "productbox">
 
-      <a href = "product.php"><img id = "t-shirt" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'></a>
-    </div>
-    <div>
-      <p> One punch man T-shirt</p>
-      <p> $20.00 </p>
-    </div>
+        <a href = "index.php"><img id = "t-shirt" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'></a>
+      </div>
+      <div>
+        <p> One punch man T-shirt</p>
+        <p> $20.00 </p>
+      </div>
 
-    <div class = "productbox">
-      <img id = "jumper" src = '../../media/anime jumper.jpg' alt = 'printed jumper'>
-    </div>
-    <div class = "productbox">
-      <img id = "pants" src = '../../media/dragonball_trackpants.jpeg' alt = 'trackpants'>
-    </div>
-  </div>
-      </article>
     </main>
 
-      <footer class = "pagefooter">
+    <footer class = "pagefooter">
           <div>&copy;<script>
             document.write(new Date().getFullYear());
           </script> Chamila Rendage(s), s3599651(s)</div>
           <div>Disclaimer: This website is not a real website and is being developed as part of a School of Science Web Programming course at RMIT University in Melbourne, Australia.</div>
           <div><button id='toggleWireframeCSS' onclick='toggleWireframe()'>Toggle Wireframe CSS</button></div>
-        </footer>
-
+    </footer>
   </body>
 </html>
