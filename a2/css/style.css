@@ -197,13 +197,14 @@ padding: 5px;
   width: 1349px;
 }
 #number{
-  width: 50px;
+  width: 30px;
+  text-align: center;
 }
 .value-button{
   display: inline-block;
   border: 1px solid #ddd;
   margin: 0px;
-  width; 40px
+  width: 40px;
   height: 20px;
   text-align: center;
   vertical-align: middle;
