@@ -49,6 +49,7 @@
         <div class = "value-button" id = "decrease" onclick = "decreaseValue()" value = "Decrease Value">-</div>
         <input type = "text" id = "number" value = "0">
         <div class = "value-button" id = "increase" onclick = "increaseValue()" value = "Increase Value">+</div>
+      </div>
     </main>
 
     <footer class = "pagefooter">
