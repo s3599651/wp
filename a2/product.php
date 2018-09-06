@@ -49,11 +49,14 @@
         <div class = "value-button" id = "decrease" onclick = "decreaseValue()" value = "Decrease Value">-</div>
         <input type = "text" id = "number" value = "0">
         <div class = "value-button" id = "increase" onclick = "increaseValue()" value = "Increase Value">+</div>
-        <select id = "size" name= "option">
+        <div class = "select-size">
+          <select id = "size" name= "option">
+          <option value="size select">Select Size</option>
           <option value="small">S</option>
           <option value="medium">M</option>
           <option value="large">L</option>
         </select>
+      </div>
         <br>
         <div class = "submitbox"><input type = "submit" value = "Submit"></div>
       </form>
