@@ -7,7 +7,7 @@
     <!-- Keep wireframe.css for debugging, add your css to style.css -->
     <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
     <link id='stylecss' type="text/css" rel="stylesheet" href="css/style.css">
-    <link id = 'javascript' type="text/js" rel="stylesheet" href = "buttons.js">
+    <!-- <link id = 'javascript' type="text/js" rel="stylesheet" href = "buttons.js"> -->
     <script src='../wireframe.js'></script>
   </head>
 
@@ -49,6 +49,13 @@
         <div class = "value-button" id = "decrease" onclick = "decreaseValue()" value = "Decrease Value">-</div>
         <input type = "text" id = "number" value = "0">
         <div class = "value-button" id = "increase" onclick = "increaseValue()" value = "Increase Value">+</div>
+        <select id = "size" name= "option">
+          <option value="small">S</option>
+          <option value="medium">M</option>
+          <option value="large">L</option>
+        </select>
+        <br>
+        <div class = "submitbox"><input type = "submit" value = "Submit"></div>
       </form>
       </div>
 
