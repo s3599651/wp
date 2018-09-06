@@ -40,11 +40,15 @@
         <p> Tee from the popular anime series One punch man </p>
         <hr>
         <p> $20.00 </p>
+        <hr>
       </div>
       <div>
         <form method = "post" action = "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php"
         <input type = "hidden" id = "name" name = "Anime tee" value = "tshirt0001">
-
+        <!--Got the code for quantity button from https://codepen.io/mtbroomell/pen/yNwwdv  -->
+        <div class = "value-button" id = "decrease" onclick = "decreaseValue()" value = "Decrease Value">-</div>
+        <input type = "text" id = "number" value = "0">
+        <div class = "value-button" id = "increase" onclick = "increaseValue()" value = "Increase Value">+</div>
     </main>
 
     <footer class = "pagefooter">
