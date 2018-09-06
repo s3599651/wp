@@ -49,6 +49,7 @@
         <div class = "value-button" id = "decrease" onclick = "decreaseValue()" value = "Decrease Value">-</div>
         <input type = "text" id = "number" value = "0">
         <div class = "value-button" id = "increase" onclick = "increaseValue()" value = "Increase Value">+</div>
+        <p>Size</p>
         <div class = "select-size">
           <select id = "size" name= "option">
           <option value="size select">Select Size</option>
