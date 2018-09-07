@@ -34,20 +34,24 @@
     <h1> PRODUCTS </h1>
   <div class = "row">
     <div class = "productbox">
-
-      <a href = "product.php"><img id = "t-shirt" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>
-      </a>
+      <a href = "product.php"><img id = "t-shirt" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'></a>
     </div>
+    <div>
     <p> One punch man T-shirt</p>
-    <p> $20.00 </p>
+    <p>$20.00</p>
+  </div>
     <div class = "productbox">
       <img id = "jumper" src = '../../media/anime jumper.jpg' alt = 'printed jumper'>
+    </div>
+    <div>
       <p> Printed jumper of multiple anime characters</p>
       <p> $40.00 </p>
     </div>
 
     <div class = "productbox">
       <img id = "pants" src = '../../media/dragonball_trackpants.jpeg' alt = 'trackpants'>
+    </div>
+    <div>
       <p> Dragonball trackpants</p>
       <p> $35.00 </p>
     </div>
