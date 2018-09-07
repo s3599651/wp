@@ -37,20 +37,21 @@
           <p id = "Intro">Welcome to Anime-Merch. If your looking for the best anime-merchandise, you have come to the best place.            We have a range of clothing including jumpers, pants, tees and many more! You can find our clothing options
             on our product page. We pride ourselves on giving our customers the best value for money.</p>
         </div>
-
+        <br>
+        <br>
         <div id = "catalog">
           <h2>Clothing from Animes such as:</h2>
           <div class = "animebox1">
-            <img id = "Naruto" src = '../../media/naruto.png' alt = 'naruto'>
+            <img class = "animelogo" src = '../../media/naruto.png' alt = 'naruto'>
           </div>
           <div class = "animebox2">
-            <img id = "Onepiece" src = '../../media/One_Piece.jpg' alt = 'onepiece'>
+            <img class = "animelogo" src = '../../media/One_Piece.jpg' alt = 'onepiece'>
           </div>
           <div class = "animebox3">
-            <img id = "hunter" src = '../../media/hunterxhunter.jpg' alt = 'HunterXHunter'>
+            <img class = "animelogo" src = '../../media/hunterxhunter.jpg' alt = 'HunterXHunter'>
           </div>
           <div class = "animebox4">
-            <img id = "Dragonball" src = '../../media/Dragon_Ball_Super.jpg' alt = 'dragonballsuper'>
+            <img class = "animelogo" src = '../../media/Dragon_Ball_Super.jpg' alt = 'dragonballsuper'>
           </div>
 
 
