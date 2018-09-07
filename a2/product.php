@@ -60,9 +60,8 @@
       </div>
         <br>
         <div class = "submitbox"><input type = "submit" value = "Submit"></div>
-
-      </form>
-      </div>
+        </form>
+        </div>
     </article>
     </main>
     <footer class = "pagefooter">
