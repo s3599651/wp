@@ -17,13 +17,15 @@ h2{
   text-align: center;
 }
 
+body{
+  background-image: url(media/anime.png);
+  background-repeat: no-repeat;
+}
+
 main{
   margin: 0px 0px 0px 0px;
   padding: 5px;
   box-sizing: border-box;
-  background-image: url(media/anime.png);
-  background-repeat: no-repeat;
-
 }
 
 nav ul {
