@@ -28,7 +28,7 @@
 <div id = "background">
 <!-- article means content that is unrelated to the page-->
     <main id = "products">
-      <article >
+      <article class = 'Welcome'>
     <h1> PRODUCTS </h1>
   <div class = "row">
     <div class = "productbox">
