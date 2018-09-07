@@ -30,6 +30,7 @@
     </nav>
   </header>
 
+  <div id = "background">
 <!-- article means content that is unrelated to the page-->
       <main id = "products">
         <article >
@@ -68,6 +69,7 @@
       </div>
 
     </main>
+  </div>
 
     <footer class = "pagefooter">
           <div>&copy;<script>

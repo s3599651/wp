@@ -31,12 +31,29 @@
 <!-- article means content that is unrelated to the page-->
   <div id = "background">
     <main>
-      <article id='Welcome'>
+      <article class='Welcome'>
         <h1> Welcome to Anime-Merch</h1>
         <div class = "info">
           <p id = "Intro">Welcome to Anime-Merch. If your looking for the best anime-merchandise, you have come to the best place.            We have a range of clothing including jumpers, pants, tees and many more! You can find our clothing options
-            on our product page. We pride ourselves on giving our customers the best value for money. We have merchandise
-            from many animes such as Naruto, Dragonball Z, One Piece, One punch man and a whole lot more.</p>
+            on our product page. We pride ourselves on giving our customers the best value for money.</p>
+        </div>
+
+        <div>
+          <h2>Clothing from Animes such as:</h2>
+          <div class = "productbox">
+            <img id = "Naruto" src = '../../media/Naruto.png' alt = 'naruto'>
+          </div>
+          <div class = "productbox">
+            <img id = "Onepiece" src = '../../media/One_Piece.jpg' alt = 'onepiece'>
+          </div>
+          <div class = "productbox">
+            <img id = "hunter" src = '../../media/hunterxhunter.jpg' alt = 'HunterXHunter'>
+          </div>
+          <div class = "productbox">
+            <img id = "Dragonball" src = '../../media/Dragon_Ball_Super.jpg' alt = 'dragonballsuper'>
+          </div>
+
+
         </div>
       </article>
     </main>
