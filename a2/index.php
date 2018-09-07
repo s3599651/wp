@@ -41,16 +41,16 @@
         <br>
         <div id = "catalog">
           <h2>Clothing from Animes such as:</h2>
-          <div class = "animebox1">
+          <div class = "animebox">
             <img class = "animelogo" src = '../../media/naruto.png' alt = 'naruto'>
           </div>
-          <div class = "animebox2">
+          <div class = "animebox">
             <img class = "animelogo" src = '../../media/One_Piece.jpg' alt = 'onepiece'>
           </div>
-          <div class = "animebox3">
+          <div class = "animebox">
             <img class = "animelogo" src = '../../media/hunterxhunter.jpg' alt = 'HunterXHunter'>
           </div>
-          <div class = "animebox4">
+          <div class = "animebox">
             <img class = "animelogo" src = '../../media/Dragon_Ball_Super.jpg' alt = 'dragonballsuper'>
           </div>
 

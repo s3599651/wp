@@ -25,11 +25,19 @@ main{
 }
 .Welcome{
   background-color: white;
+
 }
 
+
 #catalog{
-  display: inline-block;
-  text-align: center;
+  float: left;
+  width: 33.33%
+  padding: 5px;
+}
+.animebox::after{
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .animelogo{

@@ -27,7 +27,7 @@
       </nav>
     </div>
     </header>
-
+<div id = "background">
     <main>
       <article id= "loginform">
         <form class = "logform" id= "login" method = "post" action = "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php">
@@ -44,7 +44,7 @@
         </form>
       </article>
     </main>
-
+</div>
     <footer class = "pagefooter">
       <div>&copy;<script>
         document.write(new Date().getFullYear());
