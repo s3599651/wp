@@ -2,11 +2,6 @@
 *{
   box-sizing: border-box;
 }
-head,header,body,main,article,footer{
-  display: flex;
-  flex-direction: column;
-  
-}
 /* BODY */
 body, header, main, footer{
   /* top, right, bottom, left */
