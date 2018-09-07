@@ -26,14 +26,13 @@
         <li> <a href = "products.php">Products</a></li>
         <li> <a href = "login.php">Login</a></li>
       </ul>
-      <!-- <div>Put website navigation links here</div> -->
     </nav>
   </header>
 
 
 <!-- article means content that is unrelated to the page-->
     <main id = "products">
-      <article >
+      <article>
       <h1> T-SHIRT </h1>
       <div class = "productbox_1">
         <img id = "t-shirt_1" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>
