@@ -65,7 +65,7 @@ nav li a :active {
 }
 
 .row {
-  display: inline-flex;
+  display: inline-block;
 
 }
 h1{
