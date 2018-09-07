@@ -29,7 +29,8 @@
   </header>
 
 <!-- article means content that is unrelated to the page-->
-    <main id = "test">
+    <main>
+      <div id = "background"><img class  ="bk" src = "../../media/anime.png"></div>
       <article id='Welcome'>
         <h1> Welcome to Anime-Merch</h1>
         <div class = "info">
