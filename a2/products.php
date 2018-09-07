@@ -43,9 +43,14 @@
 
     <div class = "productbox">
       <img id = "jumper" src = '../../media/anime jumper.jpg' alt = 'printed jumper'>
+      <p> Printed jumper of multiple anime characters</p>
+      <p> $40.00 </p>
     </div>
+
     <div class = "productbox">
       <img id = "pants" src = '../../media/dragonball_trackpants.jpeg' alt = 'trackpants'>
+      <p> Dragonball trackpants</p>
+      <p> $35.00 </p>
     </div>
   </div>
       </article>
