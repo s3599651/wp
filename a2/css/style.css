@@ -112,10 +112,6 @@ h1{
   text-align: center;
 }
 
-#products{
-display: flex;
-
-}
 .productbox :hover{
   border-style: solid;
   border-width: 3px;

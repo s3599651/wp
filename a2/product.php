@@ -29,9 +29,7 @@
     </nav>
   </header>
 
-
-<!-- article means content that is unrelated to the page-->
-    <main id = "products">
+    <main>
       <article>
       <h1> T-SHIRT </h1>
       <div class = "productbox_1">
