@@ -16,7 +16,10 @@ h2{
   text-align: center;
 }
 
+#test{
+  background-image: url('media/anime.png');
 
+}
 main{
   margin: 0px 0px 0px 0px;
   padding: 5px;
@@ -75,7 +78,7 @@ h1{
 }
 #Intro{
   text-align: center;
-
+  padding: 50px;
 }
 
 .productbox :hover{
@@ -197,11 +200,11 @@ padding: 5px;
 .logo{
 
   height: 139px;
-  width: 1349px;
+  width: auto;
 }
 #logobox{
   height: 139px;
-  width: 1349px;
+  width: auto;
 }
 #number{
   width: 30px;

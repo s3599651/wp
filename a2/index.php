@@ -29,7 +29,7 @@
   </header>
 
 <!-- article means content that is unrelated to the page-->
-    <main>
+    <main id = "test">
       <article id='Welcome'>
         <h1> Welcome to Anime-Merch</h1>
         <div class = "info">
