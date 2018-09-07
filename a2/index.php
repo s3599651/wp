@@ -38,18 +38,18 @@
             on our product page. We pride ourselves on giving our customers the best value for money.</p>
         </div>
 
-        <div>
+        <div id = "catalog">
           <h2>Clothing from Animes such as:</h2>
-          <div class = "animebox">
+          <div class = "animebox1">
             <img id = "Naruto" src = '../../media/naruto.png' alt = 'naruto'>
           </div>
-          <div class = "animebox">
+          <div class = "animebox2">
             <img id = "Onepiece" src = '../../media/One_Piece.jpg' alt = 'onepiece'>
           </div>
-          <div class = "animebox">
+          <div class = "animebox3">
             <img id = "hunter" src = '../../media/hunterxhunter.jpg' alt = 'HunterXHunter'>
           </div>
-          <div class = "animebox">
+          <div class = "animebox4">
             <img id = "Dragonball" src = '../../media/Dragon_Ball_Super.jpg' alt = 'dragonballsuper'>
           </div>
 

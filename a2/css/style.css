@@ -27,8 +27,14 @@ main{
   background-color: white;
 }
 
-.animebox{
-  display: flex;
+#catalog{
+  display: inline-block;
+  text-align: center;
+}
+
+.animebox1{
+  height: 200px;
+  width: 200px;
 }
 
 #background{
