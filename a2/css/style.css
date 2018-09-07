@@ -124,6 +124,7 @@ h1{
 
 .productbox_1{
   text-align: center;
+  padding: 10px;
 }
   a #t-shirt{
     height: 200px;
@@ -220,7 +221,7 @@ padding: 5px;
 }
 .submitbox{
   text-align: center;
-  padding: 10px;
+
 }
 .pagefooter{
   background-color: #000000;
