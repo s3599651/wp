@@ -30,7 +30,7 @@
   </header>
 <div id = "background">
     <main>
-      <article>
+      <article class = 'Welcome'>
       <h1> T-SHIRT </h1>
       <div class = "productbox_1">
         <img id = "t-shirt_1" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>
@@ -41,6 +41,7 @@
         <hr>
         <p> $20.00 </p>
         <hr>
+      </div>
         <form method = "post" action = "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php">
         <input type = "hidden" id = "name" name = "id" value = "tshirt0001">
         <p>Quantity</p>
@@ -60,7 +61,6 @@
         <br>
         <div class = "submitbox"><input type = "submit" value = "Submit"></div>
         </form>
-          </div>
       </div>
     </article>
   </main>
