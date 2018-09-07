@@ -29,8 +29,8 @@
   </header>
 
 <!-- article means content that is unrelated to the page-->
+  <div id = "background">
     <main>
-      <div id = "background">
       <article id='Welcome'>
         <h1> Welcome to Anime-Merch</h1>
         <div class = "info">
@@ -39,8 +39,8 @@
             from many animes such as Naruto, Dragonball Z, One Piece, One punch man and a whole lot more.</p>
         </div>
       </article>
-      </div>
     </main>
+  </div>
 
     <footer class = "pagefooter">
       <div>&copy;<script>
