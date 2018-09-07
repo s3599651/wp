@@ -9,9 +9,7 @@ body, header, main, footer{
   margin: 0px 0px 0px 0px;
   font-family:'Arimo', sans-serif;
 }
-main{
-  background-image: url("../../media/anime_background.png");
-}
+
 
 h2{
   color: #4493af;
@@ -23,6 +21,8 @@ main{
   margin: 0px 0px 0px 0px;
   padding: 5px;
   box-sizing: border-box;
+  background-image: url("../../media/anime_background.png");
+  background-repeat: no-repeat;
 }
 
 nav ul {
