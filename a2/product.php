@@ -65,7 +65,7 @@
 
       </form>
       </div>
-
+    </article>
     </main>
     <footer class = "pagefooter">
           <div>&copy;<script>
