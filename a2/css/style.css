@@ -31,10 +31,10 @@ main{
 
 #catalog{
   display: flex;
-  
+
 }
 .animebox{
-  flex: 33.33%
+  flex: 33.33%;
   padding: 10px;
 }
 

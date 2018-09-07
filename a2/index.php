@@ -40,7 +40,6 @@
         <hr>
         <h2>Clothing from Animes such as:</h2>
         <div id = "catalog">
-          <h2>Clothing from Animes such as:</h2>
           <div class = "animebox">
             <img class = "animelogo" src = '../../media/naruto.png' alt = 'naruto'>
           </div>
