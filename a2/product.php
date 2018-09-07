@@ -28,7 +28,7 @@
       </ul>
     </nav>
   </header>
-
+<div id = "background">
     <main>
       <article>
       <h1> T-SHIRT </h1>
@@ -57,13 +57,15 @@
           <option value="medium">M</option>
           <option value="large">L</option>
         </select>
-      </div>
+        </div>
         <br>
         <div class = "submitbox"><input type = "submit" value = "Submit"></div>
         </form>
-        </div>
+      </div>
     </article>
-    </main>
+  </main>
+</div>
+
     <footer class = "pagefooter">
           <div>&copy;<script>
             document.write(new Date().getFullYear());
