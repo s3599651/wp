@@ -7,7 +7,7 @@
     <!-- Keep wireframe.css for debugging, add your css to style.css -->
     <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
     <link id='stylecss' type="text/css" rel="stylesheet" href="css/style.css">
-    <!-- <link id = 'javascript' type="text/js" rel="stylesheet" href = "buttons.js"> -->
+    <link id = 'javascript' type="text/js" rel="stylesheet" href = "buttons.js">
     <script src='../wireframe.js'></script>
     <script src = 'buttons.js'></script>
   </head>
