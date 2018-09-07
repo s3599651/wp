@@ -21,7 +21,7 @@ main{
   margin: 0px 0px 0px 0px;
   padding: 5px;
   box-sizing: border-box;
-  background-image: url('media/anime.png');
+  background-image: image('media/anime.png');
   background-repeat: no-repeat;
   background-color: red;
 }
