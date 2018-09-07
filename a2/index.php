@@ -40,16 +40,16 @@
 
         <div>
           <h2>Clothing from Animes such as:</h2>
-          <div class = "productbox">
-            <img id = "Naruto" src = '../../media/Naruto.png' alt = 'naruto'>
+          <div class = "animebox">
+            <img id = "Naruto" src = '../../media/naruto.png' alt = 'naruto'>
           </div>
-          <div class = "productbox">
+          <div class = "animebox">
             <img id = "Onepiece" src = '../../media/One_Piece.jpg' alt = 'onepiece'>
           </div>
-          <div class = "productbox">
+          <div class = "animebox">
             <img id = "hunter" src = '../../media/hunterxhunter.jpg' alt = 'HunterXHunter'>
           </div>
-          <div class = "productbox">
+          <div class = "animebox">
             <img id = "Dragonball" src = '../../media/Dragon_Ball_Super.jpg' alt = 'dragonballsuper'>
           </div>
 

@@ -27,6 +27,10 @@ main{
   background-color: white;
 }
 
+.animebox{
+  display: flex;
+}
+
 #background{
 
   background-image: url(https://worldwithouthorizons.com/wp-content/uploads/Hetaliaand-Black-Butleranime-and-vocaloid-59-users-Gaia-Guilds.jpg);
