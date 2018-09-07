@@ -43,7 +43,7 @@
         <hr>
         <p> $20.00 </p>
         <hr>
-        <form method = "post" action = "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php">
+        <form method = "post" onsubmit="validation()" action = "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php">
         <input type = "hidden" id = "name" name = "id" value = "tshirt0001">
         <p>Quantity</p>
         <!--Got the code for quantity button from https://codepen.io/mtbroomell/pen/yNwwdv  -->

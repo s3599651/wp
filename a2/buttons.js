@@ -17,3 +17,15 @@ function decreaseValue(){
     document.getElementById('number').value =  value;
 
 }
+
+function validation(){
+  var num = document.getElementById('number').value;
+  submitOk = "true";
+  if (num == 0){
+    alert("Quantity must be greater than zero");
+    submitOk = "false";
+    else (num > 0){
+      submitOk = "true";
+    }
+  }
+}
