@@ -17,3 +17,13 @@ function decreaseValue(){
     document.getElementById('number').value =  value;
 
 }
+function validation(){
+  var x, text;
+
+  x = document.getElementById("number"),value;
+
+  if (isNaN(x) x < 1){
+    text = "Enter a quantity greater than zero";
+  }
+  document.getElementById("demo").innerHTML = text;
+}

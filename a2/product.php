@@ -48,7 +48,7 @@
         <p>Quantity</p>
         <!--Got the code for quantity button from https://codepen.io/mtbroomell/pen/yNwwdv  -->
         <input type = 'button' class = "value-button" id = "decrease" onclick = "decreaseValue()" value = "-">
-        <input type = "text" id = "number"  name = "qty" minvalue = "1">
+        <input type = "text" id = "number"  name = "qty" value = "1">
         <input type ='button' class = "value-button" id = "increase" onclick = "increaseValue()" value = "+">
         <p>Size</p>
         <div class = "select-size">
@@ -60,7 +60,7 @@
         </select>
       </div>
         <br>
-        <div class = "submitbox"><input type = "submit" value = "Submit"></div>
+        <div class = "submitbox"><input type = "submit" value = "Submit" onclick="validation()"></div>
       </form>
       </div>
 
