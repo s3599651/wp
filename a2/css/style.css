@@ -124,6 +124,7 @@ h1{
 .productbox_1{
   padding: 5px;
   margin: 25px;
+  float: left;
 }
   a #t-shirt{
     height: 200px;
