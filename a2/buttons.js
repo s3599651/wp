@@ -14,16 +14,9 @@ function decreaseValue(){
     value = isNaN(value) ? 0: value;
     value < 1 ? value = 1 : '';
     value--;
+    if (isNaN(value) value < 1){
+        text = "Enter a quantity greater than zero";
+    }
     document.getElementById('number').value =  value;
-
-}
-function validation(){
-  var x, text;
-
-  x = document.getElementById("number"),value;
-
-  if (isNaN(x) x < 1){
-    text = "Enter a quantity greater than zero";
-  }
-  document.getElementById("demo").innerHTML = text;
+    document.getElementById("demo").innerHTML = text;
 }

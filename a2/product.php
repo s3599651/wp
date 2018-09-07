@@ -60,7 +60,8 @@
         </select>
       </div>
         <br>
-        <div class = "submitbox"><input type = "submit" value = "Submit" onclick="validation()"></div>
+        <div class = "submitbox"><input type = "submit" value = "Submit"></div>
+        <p id = "demo"></p>
       </form>
       </div>
 
