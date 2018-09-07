@@ -145,6 +145,7 @@ h1{
 .product_info{
   height: 250px;
   width: 300px;
+  display: inline-block;
 }
 .logform{
   padding: 100px;

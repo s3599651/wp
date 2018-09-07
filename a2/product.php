@@ -41,7 +41,6 @@
         <hr>
         <p> $20.00 </p>
         <hr>
-      </div>
         <form method = "post" action = "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php">
         <input type = "hidden" id = "name" name = "id" value = "tshirt0001">
         <p>Quantity</p>
@@ -61,6 +60,7 @@
         <br>
         <div class = "submitbox"><input type = "submit" value = "Submit"></div>
         </form>
+        </div>
       </div>
     </article>
   </main>
