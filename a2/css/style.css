@@ -10,7 +10,7 @@ body, header, main, footer{
   font-family:'Arimo', sans-serif;
 }
 main{
-  background-image: url("../../media/anime-background.png");
+  background-image: url("../../media/anime_background.png");
 }
 
 h2{
