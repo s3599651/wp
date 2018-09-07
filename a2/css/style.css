@@ -65,7 +65,8 @@ nav li a :active {
 }
 
 .row {
-  display: flex;
+  display: inline-flex;
+
 }
 h1{
   text-align: center;
