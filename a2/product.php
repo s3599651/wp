@@ -43,12 +43,12 @@
         <hr>
         <p> $20.00 </p>
         <hr>
-        <form method = "post" onsubmit="validation()" action = "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php">
+        <form method = "post" action = "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php">
         <input type = "hidden" id = "name" name = "id" value = "tshirt0001">
         <p>Quantity</p>
         <!--Got the code for quantity button from https://codepen.io/mtbroomell/pen/yNwwdv  -->
         <input type = 'button' class = "value-button" id = "decrease" onclick = "decreaseValue()" value = "-">
-        <input type = "text" id = "number"  name = "qty" value = "1">
+        <input type = "text" id = "number"  name = "qty" minvalue = "1">
         <input type ='button' class = "value-button" id = "increase" onclick = "increaseValue()" value = "+">
         <p>Size</p>
         <div class = "select-size">
