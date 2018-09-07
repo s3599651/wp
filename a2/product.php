@@ -9,7 +9,7 @@
     <link id='stylecss' type="text/css" rel="stylesheet" href="css/style.css">
     <!-- <link id = 'javascript' type="text/js" rel="stylesheet" href = "buttons.js"> -->
     <script src='../wireframe.js'></script>
-    <script src = 'button.js'></script>
+    <script src = 'buttons.js'></script>
   </head>
 
   <body>
