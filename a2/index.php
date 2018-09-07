@@ -37,8 +37,8 @@
           <p id = "Intro">Welcome to Anime-Merch. If your looking for the best anime-merchandise, you have come to the best place.            We have a range of clothing including jumpers, pants, tees and many more! You can find our clothing options
             on our product page. We pride ourselves on giving our customers the best value for money.</p>
         </div>
-        <br>
-        <br>
+        <hr>
+        <h2>Clothing from Animes such as:</h2>
         <div id = "catalog">
           <h2>Clothing from Animes such as:</h2>
           <div class = "animebox">

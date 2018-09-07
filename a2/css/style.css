@@ -31,10 +31,11 @@ main{
 
 #catalog{
   display: flex;
+  
 }
 .animebox{
   flex: 33.33%
-  padding: 5px;
+  padding: 10px;
 }
 
 .animelogo{
