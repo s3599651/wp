@@ -28,19 +28,28 @@
 
 <!-- article means content that is unrelated to the page-->
     <main>
-      <article id='Website Under Construction'>
-    <!-- Creative Commons image sourced from https://pixabay.com/en/maintenance-under-construction-2422173/ and used for educational purposes only -->
-        <img src='../../media/website-under-construction.png' alt='Website Under Construction' />
+      <article id='Welcome'>
+        <h1> Welcome to Anime-Merch</h1>
+        <div class = "info">
+          <p>Welcome to Anime-Merch. If your looking for the best anime-merchandise, you have come to the best place.<br>
+            We have a range of clothing including jumpers, pants, tees and many more! You can find our clothing options<br>
+            on our product page. We pride ourselves on giving our customers the best value for money. We have merchandise<br>
+            from many animes such as Naruto, Dragonball Z, One Piece, One punch man and a whole lot more.</p>
+
+
+
+        </div>
       </article>
     </main>
 
-    <footer>
+    <footer class = "pagefooter">
       <div>&copy;<script>
         document.write(new Date().getFullYear());
-        </script> Chamila Rendage(s), s3599651(s)</div>
+      </script> Chamila Rendage(s), s3599651(s)</div>
       <div>Disclaimer: This website is not a real website and is being developed as part of a School of Science Web Programming course at RMIT University in Melbourne, Australia.</div>
       <div><button id='toggleWireframeCSS' onclick='toggleWireframe()'>Toggle Wireframe CSS</button></div>
     </footer>
+
 
   </body>
 </html>
