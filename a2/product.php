@@ -47,9 +47,9 @@
         <input type = "hidden" id = "name" name = "id" value = "tshirt0001">
         <p>Quantity</p>
         <!--Got the code for quantity button from https://codepen.io/mtbroomell/pen/yNwwdv  -->
-        <div class = "value-button" id = "decrease" onclick = "decreaseValue()" value = "Decrease Value">-</div>
+        <input type = 'button' class = "value-button" id = "decrease" onclick = "decreaseValue()" value = "-">
         <input type = "text" id = "number"  name = "qty" value = "0">
-        <div class = "value-button" id = "increase" onclick = "increaseValue()" value = "Increase Value">+</div>
+        <input type ='button' class = "value-button" id = "increase" onclick = "increaseValue()" value = "+">
         <p>Size</p>
         <div class = "select-size">
           <select id = "size" name= "option">
