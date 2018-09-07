@@ -14,6 +14,7 @@ h2{
   color: #4493af;
   padding: 10px;
   text-align: center;
+  font-size: 25px;
 }
 
 
@@ -115,7 +116,7 @@ h1{
   border-width: 3px;
   }
 .productbox{
-  flex: 50%;
+  text-align: center;
   padding: 5px;
   margin: 25px;
   }
