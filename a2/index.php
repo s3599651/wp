@@ -7,6 +7,8 @@
     <!-- Keep wireframe.css for debugging, add your css to style.css -->
     <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
     <link id='stylecss' type="text/css" rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href = "https://fonts.googleapis.com/css?family=Arimo" rel = "stylesheet">
     <script src='../wireframe.js'></script>
   </head>
 
@@ -31,13 +33,9 @@
       <article id='Welcome'>
         <h1> Welcome to Anime-Merch</h1>
         <div class = "info">
-          <p>Welcome to Anime-Merch. If your looking for the best anime-merchandise, you have come to the best place.<br>
-            We have a range of clothing including jumpers, pants, tees and many more! You can find our clothing options<br>
-            on our product page. We pride ourselves on giving our customers the best value for money. We have merchandise<br>
+          <p id = "Intro">Welcome to Anime-Merch. If your looking for the best anime-merchandise, you have come to the best place.            We have a range of clothing including jumpers, pants, tees and many more! You can find our clothing options
+            on our product page. We pride ourselves on giving our customers the best value for money. We have merchandise
             from many animes such as Naruto, Dragonball Z, One Piece, One punch man and a whole lot more.</p>
-
-
-
         </div>
       </article>
     </main>

@@ -8,6 +8,8 @@
     <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
     <link id='stylecss' type="text/css" rel="stylesheet" href="css/style.css">
     <link id = 'javascript' type="text/js" rel="stylesheet" href = "buttons.js">
+    <link href = "https://fonts.googleapis.com/css?family=Arimo" rel = "stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <script src='../wireframe.js'></script>
     <script src = 'buttons.js'></script>
   </head>

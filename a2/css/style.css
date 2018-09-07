@@ -71,6 +71,11 @@ nav li a :active {
 h1{
   text-align: center;
   font-size: 25px;
+  font-family: 'Anton', sans-serif;
+}
+#intro{
+  text-align: center;
+
 }
 
 .productbox :hover{
