@@ -23,7 +23,7 @@ main{
   box-sizing: border-box;
   background-image: image('media/anime.png');
   background-repeat: no-repeat;
-  background-color: red;
+
 }
 
 nav ul {
