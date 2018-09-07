@@ -7,6 +7,8 @@
     <!-- Keep wireframe.css for debugging, add your css to style.css -->
     <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
     <link id='stylecss' type="text/css" rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href = "https://fonts.googleapis.com/css?family=Arimo" rel = "stylesheet">
     <script src='../wireframe.js'></script>
   </head>
 
@@ -35,12 +37,9 @@
 
       <a href = "product.php"><img id = "t-shirt" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>
       </a>
-    </div>
-    <div>
       <p> One punch man T-shirt</p>
       <p> $20.00 </p>
     </div>
-
     <div class = "productbox">
       <img id = "jumper" src = '../../media/anime jumper.jpg' alt = 'printed jumper'>
       <p> Printed jumper of multiple anime characters</p>

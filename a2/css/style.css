@@ -90,7 +90,7 @@ nav li a:hover{
   background-color: #052559;
 }
 
-nav li a :active {
+nav li a:active {
   background-color: #4CAF50;
 }
 
@@ -182,7 +182,7 @@ h1{
   background-color: #9e9e9e;
 }
 
-.loginsubmit: active{
+.loginsubmit:active{
   background-color: #9e9e9e;
   transform: translateY(4px);
 }
