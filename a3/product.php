@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html lang='en'>
-  <head>
-    <meta charset="utf-8">
-    <title>Assignment 2</title>
+<?php
+  session_start();
+  include_once('tools.php');
 
-    <!-- Keep wireframe.css for debugging, add your css to style.css -->
-    <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
-    <link id='stylecss' type="text/css" rel="stylesheet" href="css/style.css">
-    <link id = 'javascript' type="text/js" rel="stylesheet" href = "buttons.js">
-    <link href = "https://fonts.googleapis.com/css?family=Arimo" rel = "stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-    <script src='../wireframe.js'></script>
-    <script src = 'buttons.js'></script>
-  </head>
-
+  head('Product');
+?>
   <body>
 
     <header>
@@ -66,12 +56,9 @@
   </main>
 </div>
 
-    <footer class = "pagefooter">
-          <div>&copy;<script>
-            document.write(new Date().getFullYear());
-          </script> Chamila Rendage(s), s3599651(s)</div>
-          <div>Disclaimer: This website is not a real website and is being developed as part of a School of Science Web Programming course at RMIT University in Melbourne, Australia.</div>
-          <div><button id='toggleWireframeCSS' onclick='toggleWireframe()'>Toggle Wireframe CSS</button></div>
-    </footer>
+<?php
+  footer();
+
+?>
   </body>
 </html>
