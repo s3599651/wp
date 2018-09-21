@@ -1,1 +1,253 @@
 /* Insert your styles here */
+*{
+  box-sizing: border-box;
+}
+/* BODY */
+body, header, main, footer{
+  /* top, right, bottom, left */
+  margin: 0px 0px 0px 0px;
+  font-family:'Arimo', sans-serif;
+}
+
+
+h2{
+  color: #4493af;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+
+main{
+  margin: 0px 0px 0px 0px;
+  padding: 100px;
+  box-sizing: border-box;
+
+}
+.Welcome{
+  background-color: white;
+
+}
+
+
+#catalog{
+  display: flex;
+
+}
+.animebox{
+  flex: 33.33%;
+  padding: 10px;
+  text-align: center;
+}
+
+.animelogo{
+  height: 200px;
+  width: 200px;
+}
+
+
+#background{
+
+  background-image: url(https://worldwithouthorizons.com/wp-content/uploads/Hetaliaand-Black-Butleranime-and-vocaloid-59-users-Gaia-Guilds.jpg);
+  background-repeat: repeat;
+  height: auto;
+  max-width: 1349px;
+  margin: auto;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  position: sticky;
+  top: 0;
+}
+
+nav li{
+  float: left;
+}
+nav a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+nav li a:link {
+
+  color: white;
+
+}
+
+nav li a:visited{
+
+  color: red;
+}
+
+nav li a:hover{
+  background-color: #052559;
+}
+
+nav li a:active {
+  background-color: #4CAF50;
+}
+
+/* .row {
+  display: inline-block;
+
+} */
+h1{
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Anton', sans-serif;
+}
+#Intro{
+  text-align: center;
+  padding: 50px;
+}
+.description{
+  text-align: center;
+}
+
+.productbox :hover{
+  border-style: solid;
+  border-width: 3px;
+  }
+.productbox{
+  text-align: center;
+  padding: 5px;
+  margin: 25px;
+  }
+
+.productbox_1{
+  text-align: center;
+  padding: 10px;
+}
+  a #t-shirt{
+    height: 200px;
+    width: 200px;
+  }
+  #t-shirt_1{
+    height: auto;
+    width: auto;
+    }
+  #jumper{
+    height: 200px;
+    width: 200px;
+  }
+  #pants{
+    height: 200px;
+    width: 200px;
+
+  }
+.product_info{
+  height: 250px;
+  width: 300px;
+  display: inline-block;
+}
+.logform{
+  padding: 100px;
+  height: 500px;
+  width: 500px;
+  background-color: white;
+}
+
+#loginform .logform{
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#loginform{
+
+  background-color: inherit;
+
+}
+
+.loginsubmit{
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: #827d7c;
+  border: none;
+  border-radius: 15px;
+
+}
+
+.loginsubmit:hover{
+  background-color: #9e9e9e;
+}
+
+.loginsubmit:active{
+  background-color: #9e9e9e;
+  transform: translateY(4px);
+}
+#Email{
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  padding: 3px;
+}
+#pass{
+  padding: 3px;
+  font-size: 25px;
+  text-align: center;
+}
+.emailholder{
+font-size: 35px;
+text-align: center;
+padding: 5px;
+}
+.passwordholder{
+  font-size: 35px;
+  text-align: center;
+  padding: 5px;
+}
+.emailbox{
+  text-align: center;
+
+}
+.passwordbox{
+  text-align: center;
+}
+.submitbox{
+  text-align: center;
+
+}
+.pagefooter{
+  background-color: #000000;
+  color: white;
+}
+.logo{
+
+  height: 139px;
+  width: 1349px;
+}
+#logobox{
+  height: 139px;
+  width: 1349px;
+}
+#number{
+  width: 30px;
+  text-align: center;
+}
+.value-button{
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 11px 0;
+  background: #eee;
+}
