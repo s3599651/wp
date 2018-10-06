@@ -39,6 +39,7 @@
     <div class = "description">
       <p> Printed jumper of multiple anime characters</p>
       <p> $40.00 </p>
+      <a class = btn href = "product.php" id = "p2">View Details</a>
     </div>
 
     <div class = "productbox">
@@ -47,8 +48,25 @@
     <div class = "description">
       <p> Dragonball trackpants</p>
       <p> $35.00 </p>
+      <a class = btn href = "product.php" id = "p3">View Details</a>
     </div>
   </div>
+      <?php
+
+
+        $getId = '';
+        if (!empty ($_GET['id']) && isset($prices[$_GET['id']]))
+          $getId =  htmlentities($_GET['id']);
+
+          for each ($prices as $id => $price){
+            if (empty($getId))
+              echo "<article>Show $getId product, no form</article>";
+            else if($getId == $id)
+              echo "<article>Show $getId product with form</article>";
+          }
+
+
+      ?>
       </article>
     </main>
 </div>
