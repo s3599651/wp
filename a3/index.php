@@ -1,51 +1,70 @@
-<!DOCTYPE html>
-<html lang='en'>
-  <head>
-    <meta charset="utf-8">
-    <title>Assignment 3</title>
+<?php
+  session_start();
+  include_once('tools.php');
 
-    <!-- Keep wireframe.css for debugging, add your css to style.css -->
-    <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
-    <link id='stylecss' type="text/css" rel="stylesheet" href="css/style.css">
-    <script src='../wireframe.js'></script>
+  head('Index');
+?>
+<header>
+
+  <div id = "logobox"><img class  ="logo" src = "../../media/company_logo.png"></div>
+
+<nav id = "menu">
+  <ul>
+    <li> <a class = "active" href = "index.php">Home</a></li>
+    <li> <a href = "products.php">Products</a></li>
+    <li> <a href = "login.php">Login</a></li>
+  </ul>
+</nav>
+</header>
     <style>
       <?php
         // This PHP code inserts CSS to style the "current page" link in the nav area
-        $here = $_SERVER['SCRIPT_NAME']; 
-        $bits = explode('/',$here); 
-        $filename = $bits[count($bits)-1]; 
+        $here = $_SERVER['SCRIPT_NAM E'];
+        $bits = explode('/',$here);
+        $filename = $bits[count($bits)-1];
         echo "nav a[href$='$filename'] {
         box-shadow: 1px 1px 1px 2px navy;
       }";
       ?>
-      
+
     </style>
-  </head>
+
 
   <body>
 
     <header>
-      <div>Put company logo and name here</div>
-    </header>
+      <div id = "background">
+        <main>
+          <article class='Welcome'>
+            <h1> Welcome to Anime-Merch</h1>
+            <div class = "info">
+              <p id = "Intro">Welcome to Anime-Merch. If your looking for the best anime-merchandise, you have come to the best place.            We have a range of clothing including jumpers, pants, tees and many more! You can find our clothing options
+                on our product page. We pride ourselves on giving our customers the best value for money.</p>
+            </div>
+            <hr>
+            <h2>Clothing from Animes such as:</h2>
+            <div id = "catalog">
+              <div class = "animebox">
+                <img class = "animelogo" src = '../../media/naruto.png' alt = 'naruto'>
+              </div>
+              <div class = "animebox">
+                <img class = "animelogo" src = '../../media/One_Piece.jpg' alt = 'onepiece'>
+              </div>
+              <div class = "animebox">
+                <img class = "animelogo" src = '../../media/hunterxhunter.jpg' alt = 'HunterXHunter'>
+              </div>
+              <div class = "animebox">
+                <img class = "animelogo" src = '../../media/Dragon_Ball_Super.jpg' alt = 'dragonballsuper'>
+              </div>
 
-    <nav>
-      <div>Put website navigation links here</div>
-    </nav>
 
-    <main>
-      <article id='Website Under Construction'>
-    <!-- Creative Commons image sourced from https://pixabay.com/en/maintenance-under-construction-2422173/ and used for educational purposes only -->
-        <img src='../../media/website-under-construction.png' alt='Website Under Construction' />
-      </article>
-    </main>
+            </div>
+          </article>
+        </main>
+      </div>
+      <?php
+        footer();
 
-    <footer>
-      <div>&copy;<script>
-        document.write(new Date().getFullYear());
-      </script> Put your name(s), student number(s) and group name here.</div>
-      <div>Disclaimer: This website is not a real website and is being developed as part of a School of Science Web Programming course at RMIT University in Melbourne, Australia.</div>
-      <div>Maintain links to your <a href='products.txt'>products spreadsheet</a> and <a href='orders.txt'>orders spreadsheet</a> here. <button id='toggleWireframeCSS' onclick='toggleWireframe()'>Toggle Wireframe CSS</button></div>
-    </footer>
-   
+      ?>
   </body>
 </html>
