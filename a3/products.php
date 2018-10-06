@@ -26,11 +26,12 @@
     <h1> PRODUCTS </h1>
   <div>
     <div class = "productbox">
-      <a href = "product.php"><img id = "t-shirt" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'></a>
+      <img id = "t-shirt" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>
     </div>
     <div class = "description">
     <p> One punch man T-shirt</p>
     <p>$20.00</p>
+    <a class = btn href = "product.php" id = "p1">View Details</a>
   </div>
     <div class = "productbox">
       <img id = "jumper" src = '../../media/anime jumper.jpg' alt = 'printed jumper'>
