@@ -52,7 +52,12 @@
     </div>
   </div>
       <?php
+      $getId = [
+        "p1" => $25.00,
+        "p2" => $25.00,
+        "p3" => $25.00
 
+      ];
 
         $getId = '';
         if (!empty ($_GET['id']) && isset($prices[$_GET['id']]))
