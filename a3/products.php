@@ -51,27 +51,6 @@
       <a class = btn href = "product.php" id = "p3">View Details</a>
     </div>
   </div>
-      <?php
-      $getId = [
-        "p1" => $25.00,
-        "p2" => $25.00,
-        "p3" => $25.00
-
-      ];
-
-        $getId = '';
-        if (!empty ($_GET['id']) && isset($prices[$_GET['id']]))
-          $getId =  htmlentities($_GET['id']);
-
-          for each ($prices as $id => $price){
-            if (empty($getId))
-              echo "<article>Show $getId product, no form</article>";
-            else if($getId == $id)
-              echo "<article>Show $getId product with form</article>";
-          }
-
-
-      ?>
       </article>
     </main>
 </div>
