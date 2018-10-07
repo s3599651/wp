@@ -317,3 +317,11 @@ label{
 .btn:hover{
   background-color: #45a049;
 }
+.visa{
+  height: 200px
+  width: 200px;
+}
+.mastercard{
+  height: 200px;
+  width: 200px;
+}
