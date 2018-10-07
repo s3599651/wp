@@ -31,7 +31,7 @@
     <div class = "description">
     <p> One punch man T-shirt</p>
     <p>$20.00</p>
-    <a class = btn href = "product.php" id = "p1">View Details</a>
+    <a class = btn href = "product1.php" id = "p1">View Details</a>
   </div>
     <div class = "productbox">
       <img id = "jumper" src = '../../media/anime jumper.jpg' alt = 'printed jumper'>
@@ -39,7 +39,7 @@
     <div class = "description">
       <p> Printed jumper of multiple anime characters</p>
       <p> $40.00 </p>
-      <a class = btn href = "product.php" id = "p2">View Details</a>
+      <a class = btn href = "product2.php" id = "p2">View Details</a>
     </div>
 
     <div class = "productbox">
