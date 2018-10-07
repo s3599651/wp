@@ -206,7 +206,7 @@ function test_input($data){
                     <label for = "cname">Name on Card</label>
                     <input type = "text" id = "cname" name = "cardname" value = "<?php echo $cardname;?>"required>
                     <label for = "ccnum"> Credit card number</label>
-                    <input type = "text" id = "ccnum" name = "cardnumber" placeholder = "XXXX-XXXX-XXXX-XXXX" value = "<?php echo $cardnumber;?>"required>
+                    <input type = "text" id = "ccnum" name = "cardnumber" placeholder = "XXXX-XXXX-XXXX-XXXX" value = "<?php if($submitbutton) {echo $number;}?>"required>
                     <?php
                       if($submitbutton){
                         if (validatecard($number) !== false){
