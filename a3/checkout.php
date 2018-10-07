@@ -105,7 +105,7 @@ function validatecard($number){
   );
 
   if (preg_match($cardtype["visa"], $number)){
-    $type = "visa",
+    $type = "visa";
     return "visa";
   }else if (preg_match($cardtype["mastercard"],$number)) {
     $type = "mastercard";
