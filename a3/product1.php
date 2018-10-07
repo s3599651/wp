@@ -5,28 +5,6 @@
   head('Product');
 
 
-  // $getId = [
-  //   "p1" => $25.00,
-  //   "p2" => $25.00,
-  //   "p3" => $25.00
-  //
-  // ];
-  //
-  //   $getId = '';
-  //   if (!empty ($_GET['id']) && isset($prices[$_GET['id']]))
-  //     $getId =  htmlentities($_GET['id']);
-  //
-  //     for each ($prices as $id => $price){
-  //       if (empty($getId))
-  //         echo "<article>Show $getId product, no form</article>";
-  //       else if($getId == $id)
-  //         echo "<article>Show $getId product with form</article>";
-  //     }
-  //
-  //
-  //
-  //
-  //
 
 
 
@@ -57,9 +35,9 @@
         <hr>
         <p> Tee from the popular anime series One punch man </p>
         <hr>
-        <p> $20.00 </p>
+        <p> $25.00 </p>
         <hr>
-        <form method = "post" action = "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php">
+        <form method = "post" action = "cart.php">
         <input type = "hidden" id = "name" name = "id" value = "tshirt0001">
         <p>Quantity</p>
         <!--Got the code for quantity button from https://codepen.io/mtbroomell/pen/yNwwdv  -->
