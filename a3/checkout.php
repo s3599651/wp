@@ -90,8 +90,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     $postcodeERR = "Please enter your postcode";
   }else{
     $postcode = test_input($_POST["postcode"]);
-    if (!preg_match("/^(\\d\{4\}\)/$"),$postcode){
-      $postcodeERR = "Enter a valid postcode";
+    
     }
   }
 }
