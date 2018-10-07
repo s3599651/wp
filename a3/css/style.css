@@ -126,23 +126,14 @@ h1{
   text-align: center;
   padding: 10px;
 }
-#t-shirt{
+.clothing{
     height: 200px;
     width: 200px;
-  }
-#t-shirt_1{
+}
+.clothing_1{
     height: auto;
     width: auto;
-    }
-#jumper{
-    height: 200px;
-    width: 200px;
-  }
-#pants{
-    height: 200px;
-    width: 200px;
-
-  }
+}
 .product_info{
   height: 250px;
   width: 300px;

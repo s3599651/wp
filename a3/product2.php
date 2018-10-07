@@ -49,7 +49,7 @@
       <article class = 'Welcome'>
       <h1> T-SHIRT </h1>
       <div class = "productbox_1">
-        <img id = "t-shirt_1" src = '../../media/anime jumper.jpg' alt = 'printed jumper'>
+        <img class = "clothing_2" src = '../../media/anime jumper.jpg' alt = 'printed jumper'>
       <div class = "product_info">
         <p> Printed T-shirt</p>
         <hr>

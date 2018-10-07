@@ -26,7 +26,7 @@
     <h1> PRODUCTS </h1>
   <div>
     <div class = "productbox">
-      <img id = "t-shirt" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>
+      <img class = "clothing" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>
     </div>
     <div class = "description">
     <p> One punch man T-shirt</p>
@@ -34,7 +34,7 @@
     <a class = btn href = "product1.php" id = "p1">View Details</a>
   </div>
     <div class = "productbox">
-      <img id = "jumper" src = '../../media/anime jumper.jpg' alt = 'printed jumper'>
+      <img class = "clothing" src = '../../media/anime jumper.jpg' alt = 'printed jumper'>
     </div>
     <div class = "description">
       <p> Printed jumper of multiple anime characters</p>
@@ -43,12 +43,12 @@
     </div>
 
     <div class = "productbox">
-      <img id = "pants" src = '../../media/dragonball_trackpants.jpeg' alt = 'trackpants'>
+      <img class = "clothing" src = '../../media/dragonball_trackpants.jpeg' alt = 'trackpants'>
     </div>
     <div class = "description">
       <p> Dragonball trackpants</p>
       <p> $35.00 </p>
-      <a class = btn href = "product.php" id = "p3">View Details</a>
+      <a class = btn href = "product3.php" id = "p3">View Details</a>
     </div>
   </div>
       </article>

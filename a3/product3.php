@@ -51,13 +51,13 @@
       <article class = 'Welcome'>
       <h1> T-SHIRT </h1>
       <div class = "productbox_1">
-        <img id = "t-shirt_1" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>
+        <img class = "clothing_1" src = '../../media/dragonball_trackpants.jpeg' alt = 'trackpants'>
       <div class = "product_info">
-        <p> One punch man T-shirt</p>
+        <p> Dragonball Trackpants</p>
         <hr>
-        <p> Tee from the popular anime series One punch man </p>
+        <p> Grey Trackpants with the Dragonball logo </p>
         <hr>
-        <p> $20.00 </p>
+        <p> $25.00 </p>
         <hr>
         <form method = "post" action = "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php">
         <input type = "hidden" id = "name" name = "id" value = "tshirt0001">
