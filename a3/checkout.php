@@ -178,18 +178,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
                         <label for = "expyear">Exp Year</label>
                         <input type = "text" id = "expyear" name = "expyear" value = "<?php echo $expyear;?>"required>
                       </div>
+                      <label>
+
 
                       </div>
                     </div>
                   </div>
-
+                  <input type = "submit" value = "Continue to checkout" class = "btn">
+                  </form>
                 </div>
 
-                <label>
 
-                  <input type = "submit" value = "Continue to checkout" class = "btn">
 
-                </form>
+
+
+
 
     </article>
   </main>
