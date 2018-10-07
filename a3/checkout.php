@@ -92,6 +92,35 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
   }
 }
+//code for cardnumber validation => http://www.learningaboutelectronics.com/Articles/How-to-validate-a-credit-card-number-using-PHP.php
+$submitbutton = $_POST['$submitbutton'];
+$number = $_POST['number_entered'];
+
+function validatecard($number){
+  global $type;
+
+  $cardtype = array(
+    "visa" => "/^4[0-9]{12}(?:[0-9]{3})?$/",
+    "mastercard" => "/^5[1-5][0-9]{14}$/",
+  );
+
+  if (preg_match($cardtype["visa"], $number)){
+    $type = "visa",
+    return "visa";
+  }else if (preg_match($cardtype["mastercard"],$number)) {
+    $type = "mastercard";
+    return "mastercard";
+  }else {
+    return false;
+  }
+
+}
+validatecard($number);
+
+
+
+
+
 
 
 function test_input($data){
@@ -169,16 +198,30 @@ function test_input($data){
                     <label for = "fname"> Accepted Cards</label>
                     <div class = "icon-container">
                       <i class = "fa-visa"></i>
-                      <div><img class = "visa" src = "../../media/visa.png"></div>
+                      <div class = card_img><img class = "visa" src = "../../media/visa.png"></div>
                       <i class = "fa-mastercard"></i>
-                      <div><img class = "mastercard" src = "../../media/mastercard.jpg"></div>
+                      <div class = card_img><img class = "mastercard" src = "../../media/mastercard.jpg"></div>
                     </div>
 
                     <label for = "cname">Name on Card</label>
                     <input type = "text" id = "cname" name = "cardname" value = "<?php echo $cardname;?>"required>
                     <label for = "ccnum"> Credit card number</label>
                     <input type = "text" id = "ccnum" name = "cardnumber" placeholder = "XXXX-XXXX-XXXX-XXXX" value = "<?php echo $cardnumber;?>"required>
+                    <?php
+                      if($submitbutton){
+                        if (validatecard($number) !== false){
+                          echo ".card_img{
+                            box-shadow: 1px 1px 1px 2px navy;
+                          }
+                          $type detected.credit card is valid";
+                        }else {
+                          echo "This credit card number is invalid";
+                        }
+                      }
 
+
+                    ?>
+                    <br><br>
                     <label for = "expmonth">Exp Month</label>
                     <input type = "text" id = "expmonth" name = "expmonth" value = "<?php echo $expmonth;?>"required>
                     <label for = "cvv">CVV</label>
@@ -194,7 +237,7 @@ function test_input($data){
                       </div>
                     </div>
                   </div>
-                  <input type = "submit" value = "Continue to checkout" class = "btn">
+                  <input type = "submit" name = "submitbutton" value = "Continue to checkout" class = "btn">
                   </form>
                 </div>
 
