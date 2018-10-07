@@ -303,6 +303,9 @@ label{
 .btn:hover{
   background-color: #45a049;
 }
+.error{
+  color: #FF0000;
+}
 .visa{
   height: 100px;
   width: 100px;

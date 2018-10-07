@@ -170,9 +170,16 @@ function test_input($data){
                     <span class = error>*<?php echo $emailERR; ?></span>
                     <br><br>
                     <label for = "adr"><i class = "fa-address"></i>Address</label>
-                    <input type = "text" id ="adr" name = "address" value = "<?php echo $address;?>" required>
-                    <span class = error>*<?php echo $addressERR?></span>
+                    <textarea id ="adr" name = "address" rows = "5" col = "40"value = "<?php echo $address;?>" required><?php echo $addressERR?></textarea>
+                    
                     <br><br>
+                    <label for = "mobile"><i class = "mobile-phone"></i>Mobile Phone</label>
+                    <input type = "text" id ="mobile" name = "mobilephone" required>
+
+
+
+
+
                     <label for = "city"><i class = "fa-institution"></i>City</label>
                     <input type = "text" id = "city" name = "city"  value = "<?php echo $city;?>" placeholder = "Melbourne" required>
                     <span class = error>*<?php echo $cityERR?></span>
