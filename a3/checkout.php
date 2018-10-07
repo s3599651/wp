@@ -82,6 +82,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     $stateERR = "Please enter your state";
   }else{
     $state = test_input($_POST["state"]);
+    if(!preg_match("/^(\\d\{3\}\)/$"). $state){
+      $stateERR = "Enter a valid state";
+    }
   }
   if (empty($_POST["postcode"])){
     $postcodeERR = "Please enter your postcode";
