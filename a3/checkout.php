@@ -29,21 +29,6 @@ $cvvERR = "";
 $expyearERR = "";
 
 
-if ($_SERVER["REQUEST_METHOD"] == "POST"){
-  $firstname = test_input($_POST["fullname"]);
-  $email = test_input($_POST["email"]);
-  $address = test_input($_POST["address"]);
-  $city = test_input($_POST["city"]);
-  $state = test_input($_POST["state"]);
-  $postcode = test_input($_POST["postcode"]);
-}
-
-function test_input($data){
-  $data = trim($data);
-  $data = stripslashes($data);
-  $data = htmlspecialchars($data);
-  return $data;
-}
 
 if ($_SERVER["REQUEST_METHOD"] == "POST"){
   if (empty($_POST["fullname"])){
@@ -92,7 +77,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     $postcode = test_input($_POST["postcode"]);
     }
 
+  if (empty($_POST["cardname"])){
+    $cardnameERR = "Please enter the cardname";
+  }else{
+    $cardname = test_input($_POST["cardname"]);
+    if (!preg_match("/^[a-zA-Z ]*$/",$cardname)){
+      $cardnameERR = "Only letters and white space allowed";
+    }
+  }
+  if (empty($_POST["cardnumber"])){
+    $cardnumberERR = "Please enter a card number";
+  }else{
+    $cardnumber = test_input($_POST["cardnumber"]);
+
+  }
 }
+
+
+function test_input($data){
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+
+
 
 ?>
 
@@ -169,6 +178,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
                     <input type = "text" id = "cname" name = "cardname" value = "<?php echo $cardname;?>"required>
                     <label for = "ccnum"> Credit card number</label>
                     <input type = "text" id = "ccnum" name = "cardnumber" placeholder = "XXXX-XXXX-XXXX-XXXX" value = "<?php echo $cardnumber;?>"required>
+
                     <label for = "expmonth">Exp Month</label>
                     <input type = "text" id = "expmonth" name = "expmonth" value = "<?php echo $expmonth;?>"required>
                     <label for = "cvv">CVV</label>
