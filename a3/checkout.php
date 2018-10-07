@@ -93,8 +93,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
   }
 }
 //code for cardnumber validation => http://www.learningaboutelectronics.com/Articles/How-to-validate-a-credit-card-number-using-PHP.php
-$submitbutton = $_POST['$submitbutton'];
-$number = $_POST['number_entered'];
+$submitbutton = $_POST['submitbutton'];
+$number = $_POST['cardnumber'];
 
 function validatecard($number){
   global $type;
