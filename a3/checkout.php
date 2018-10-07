@@ -155,7 +155,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
                     </div>
                   </div>
 
-                  <div class = "col-50">
+                  <div class = "col-75">
                     <h3>Payment</h3>
                     <label for = "fname"> Accepted Cards</label>
                     <div class = "icon-container">
@@ -174,7 +174,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
                     <label for = "cvv">CVV</label>
                     <input type = "text" id = "cvv" name = "cvv" value = "<?php echo $cvv;?>"required>
                     <div class = "row">
-                      <div class = "col-50">
+                      <div class = "col-75">
                         <label for = "expyear">Exp Year</label>
                         <input type = "text" id = "expyear" name = "expyear" value = "<?php echo $expyear;?>"required>
                       </div>
