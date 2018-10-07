@@ -162,7 +162,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
                     <label for = "fname"> Accepted Cards</label>
                     <div class = "icon-container">
                       <i class = "fa-visa"></i>
+                      <div><img class = "visa" src = "../../media/visa.png"></div>
                       <i class = "fa-mastercard"></i>
+                      <div><img class = "mastercard" src = "../../media/mastercard.jpg"></div>
                     </div>
 
                     <label for = "cname">Name on Card</label>
