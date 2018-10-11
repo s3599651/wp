@@ -76,7 +76,7 @@
         </select>
         </div>
         <br>
-        <div class = "submitbox"><input type = "submit" value = "Submit"></div>
+        <div class = "submitbox"><input type = "submit" value = "Add to Cart"></div>
         </form>
         </div>
       </div>
