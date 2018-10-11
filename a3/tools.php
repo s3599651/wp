@@ -39,12 +39,6 @@ function preShow( $arr, $returnAsString=false ) {
     return $ret;
   else
     echo $ret;
-    preShow($_POST);
-    preShow($_SESSION);
-
-    $aaarg = preShow($my_bad_array, true);
-    echo "Why is \n $aaarg \n not working?";
-
 }
 
 function printMyCode() {
