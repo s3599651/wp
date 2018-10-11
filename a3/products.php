@@ -39,7 +39,7 @@
     <div class = "description">
       <p> Printed jumper of multiple anime characters</p>
       <p> $40.00 </p>
-      <a class = btn href = "product2.php" id = "p2">View Details</a>
+      <a class = btn href = "product2.phpid=p2?" id = "p2">View Details</a>
     </div>
 
     <div class = "productbox">
@@ -48,7 +48,7 @@
     <div class = "description">
       <p> Dragonball trackpants</p>
       <p> $35.00 </p>
-      <a class = btn href = "product3.php" id = "p3">View Details</a>
+      <a class = btn href = "product3.php?id=p3" id = "p3">View Details</a>
     </div>
   </div>
       </article>

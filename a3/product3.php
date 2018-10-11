@@ -4,32 +4,7 @@
 
   head('Product');
 
-  //
-  // $getId = [
-  //   "p1" => $25.00,
-  //   "p2" => $25.00,
-  //   "p3" => $25.00
-  //
-  // ];
-  //
-  //   $getId = '';
-  //   if (!empty ($_GET['id']) && isset($prices[$_GET['id']]))
-  //     $getId =  htmlentities($_GET['id']);
-  //
-  //     for each ($prices as $id => $price){
-  //       if (empty($getId))
-  //         echo "<article>Show $getId product, no form</article>";
-  //       else if($getId == $id)
-  //         echo "<article>Show $getId product with form</article>";
-  //     }
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-
+  if (isset($_GET['id']) && $_GET['id'] == "p2"){
 
 ?>
   <body>
@@ -91,3 +66,8 @@
 ?>
   </body>
 </html>
+<?php
+}else{
+  header("Location: products.php");
+}
+?>
