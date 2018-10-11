@@ -4,7 +4,7 @@
 
   head('Product');
 
-  if (isset($_GET['id'] && $_GET['id'] == p1)){
+  if (isset($_GET['id']) && $_GET['id'] == p1){
 
 
 
