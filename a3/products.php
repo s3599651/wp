@@ -56,11 +56,12 @@
 </div>
 <?php
   footer();
+  preShow($_GET);
   preShow($_POST);
   preShow($_SESSION);
 
   $aaarg = preShow($my_bad_array, true);
-  echo "Why is \n $aaarg \n not working?"; 
+  echo "Why is \n $aaarg \n not working?";
 
   printMyCode();
 ?>
