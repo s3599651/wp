@@ -73,6 +73,6 @@
 
 <?php
 }else{
-  header("Location: products.php")
+  header("Location: products.php");
 }
 ?>
