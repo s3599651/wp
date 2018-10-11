@@ -171,7 +171,7 @@ function test_input($data){
                     <br><br>
                     <label for = "adr"><i class = "fa-address"></i>Address</label>
                     <textarea id ="adr" name = "address" rows = "5" col = "40"value = "<?php echo $address;?>" required><?php echo $addressERR?></textarea>
-                    
+
                     <br><br>
                     <label for = "mobile"><i class = "mobile-phone"></i>Mobile Phone</label>
                     <input type = "text" id ="mobile" name = "mobilephone" required>
@@ -260,7 +260,8 @@ function test_input($data){
 
 <?php
   footer();
-
+  preshow();
+  printMyCode();
 ?>
   </body>
 </html>

@@ -32,3 +32,28 @@ function footer(){
 FOOTER;
   echo $output;
 }
+
+function preShow( $arr, $returnAsString=false ) {
+  $ret  = '<pre>' . print_r($arr, true) . '</pre>';
+  if ($returnAsString)
+    return $ret;
+  else
+    echo $ret;
+}
+
+preShow($_POST);
+preShow($_SESSION);
+
+$aaarg = preShow($my_bad_array, true);
+echo "Why is \n $aaarg \n not working?";
+
+
+function printMyCode() {
+  $lines = file($_SERVER['SCRIPT_FILENAME']);
+  echo "<pre class='mycode'>\n";
+  foreach ($lines as $lineNo => $lineOfCode)
+     printf("%3u: %1s \n", $lineNo, rtrim(htmlentities($lineOfCode)));
+  echo "</pre>";
+}
+
+printMyCode();

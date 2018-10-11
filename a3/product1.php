@@ -64,7 +64,8 @@
 
 <?php
   footer();
-
+  preshow();
+  printMyCode();
 ?>
   </body>
 </html>
