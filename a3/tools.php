@@ -39,14 +39,13 @@ function preShow( $arr, $returnAsString=false ) {
     return $ret;
   else
     echo $ret;
+    preShow($_POST);
+    preShow($_SESSION);
+
+    $aaarg = preShow($my_bad_array, true);
+    echo "Why is \n $aaarg \n not working?";
+
 }
-
-preShow($_POST);
-preShow($_SESSION);
-
-$aaarg = preShow($my_bad_array, true);
-echo "Why is \n $aaarg \n not working?";
-
 
 function printMyCode() {
   $lines = file($_SERVER['SCRIPT_FILENAME']);
@@ -54,6 +53,5 @@ function printMyCode() {
   foreach ($lines as $lineNo => $lineOfCode)
      printf("%3u: %1s \n", $lineNo, rtrim(htmlentities($lineOfCode)));
   echo "</pre>";
-}
 
-printMyCode();
+}
