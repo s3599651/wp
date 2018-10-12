@@ -6,7 +6,7 @@ function increaseValue(){
   var value = parseInt(document.getElementById('number').value, 10);
   value = isNaN(value) ? 0: value;
     value++;
-    total = total * 2;
+    value = document.getElementById('number').value * document.getElementById('totalprice');
     document.getElementById('number').value = value;
 }
 
