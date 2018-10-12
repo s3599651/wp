@@ -6,6 +6,8 @@
 
   $fp = fopen('products.txt', 'r');
   if(($headings = fgetcsv($fp, 0 , "\t")) !== false){
+    echo "headings : ".$headings;
+    var_dump($headings);
     while($cells = fgetcsv($fp, 0, "\t") ){
       for ($x = 1; $x<count($cells); $x++)
         $products[$cells[0]][$headings[$x]]=$cells[$x];
