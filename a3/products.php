@@ -16,7 +16,7 @@
     }
   }
   fclose($fp);
-  preShow($products);
+
 
 ?>
   <body>
@@ -74,9 +74,10 @@
   preShow($_GET);
   preShow($_POST);
   preShow($_SESSION);
+  preShow($products);
 
-  // $aaarg = preShow($my_bad_array, true);
-  // echo "Why is \n $aaarg \n not working?";
+  $aaarg = preShow($products, true);
+  echo "Why is \n $aaarg \n not working?";
 
   printMyCode();
 ?>
