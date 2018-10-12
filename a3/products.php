@@ -7,15 +7,15 @@
   $fp = fopen('products.txt', 'r');
   if(($headings = fgetcsv($fp, 0 , "\t")) !== false){
     //echo "headings : ".$headings;
-    var_dump($headings);
+    // var_dump($headings);
     while($cells = fgetcsv($fp, 0, "\t") ){
-      echo "<hr/>";
-      var_dump($cells);
+      // echo "<hr/>";
+      // var_dump($cells);
       for ($x = 1; $x < count($cells); $x++) {
-        var_dump($cells[$x]);
-        echo "<hr/>";
+        // var_dump($cells[$x]);
+        // echo "<hr/>";
         $products[$cells[0]][$headings[$x]]=$cells[$x];
-        echo "Cells ".$x." : ".$cells[$x];
+        // echo "Cells ".$x." : ".$cells[$x];
       }
     }
   }
