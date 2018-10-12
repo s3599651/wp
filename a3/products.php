@@ -7,7 +7,7 @@
   $fp = fopen('products.txt', 'r');
   if(($headings = fgetcsv($fp, 0 , "\t")) !== false){
     //echo "headings : ".$headings;
-    // var_dump($headings);
+    var_dump($headings);
     while($cells = fgetcsv($fp, 0, "\t") ){
       // echo "<hr/>";
       // var_dump($cells);
@@ -49,12 +49,8 @@
 
 
     <div class = "productbox">
-      <?php
-        for($x = 1; $x < length($products); $x++){
-      echo "<img class = 'clothing' src = ".$cell[1]." alt = 'One-punch man t-shrt'>";
-      }
-     ?>
-      <!-- <img class = "clothing" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'> -->
+
+    <img class = "clothing" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>
     </div>
     <div class = "description">
     <p> One punch man T-shirt</p>
