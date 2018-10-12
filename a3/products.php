@@ -11,7 +11,7 @@
     while($cells = fgetcsv($fp, 0, "\t") ){
       echo "<hr/>";
       var_dump($cells);
-      for ($x = 0; $x < count($cells); $x++) {
+      for ($x = 1; $x < count($cells); $x++) {
         var_dump($cells[$x]);
         echo "<hr/>";
         $products[$cells[0]][$headings[$x]]=$cells[$x];
@@ -44,11 +44,21 @@
       <article class = 'Welcome'>
     <h1> PRODUCTS </h1>
   <div>
+
+
+
+
     <div class = "productbox">
-      <img class = "clothing" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'>
+      <?php
+        for($x = 1; $x < length($products); $x++){
+        echo "<img class = "clothing" src = ".$cell[1]." alt = 'One-punch man t-shrt'>"
+      }
+     ?>
+      <!-- <img class = "clothing" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'> -->
     </div>
     <div class = "description">
     <p> One punch man T-shirt</p>
+    <p>Tee from the popular anime series One punch man.</p>
     <p>$20.00</p>
     <a class = btn href = "product1.php?id=p1" id = "p1">View Details</a>
   </div>
