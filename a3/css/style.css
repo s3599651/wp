@@ -2,6 +2,8 @@
 *{
   box-sizing: border-box;
 }
+//url
+$url_0: url(http://jquerycreditcardvalidator.com/images/images.png);
 /* BODY */
 body, header, main, footer{
   /* top, right, bottom, left */

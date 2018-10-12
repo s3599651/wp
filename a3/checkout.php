@@ -175,11 +175,6 @@ function test_input($data){
                     <br><br>
                     <label for = "mobile"><i class = "mobile-phone"></i>Mobile Phone</label>
                     <input type = "text" id ="mobile" name = "mobilephone" required>
-
-
-
-
-
                     <label for = "city"><i class = "fa-institution"></i>City</label>
                     <input type = "text" id = "city" name = "city"  value = "<?php echo $city;?>" placeholder = "Melbourne" required>
                     <span class = error>*<?php echo $cityERR?></span>
@@ -194,7 +189,7 @@ function test_input($data){
                       <div class  = "col-50">
                         <label for = "Postcode">Postcode</label>
                         <input type = "text" id = "postcode" name = "postcode" value = "<?php echo $postcode;?>" placeholder = "1234" required>
-                        <span class = error>*<?php echo $postcodeERR?></span>
+
                         <br><br>
                       </div>
                     </div>
@@ -205,38 +200,44 @@ function test_input($data){
                     <label for = "fname"> Accepted Cards</label>
                     <div class = "icon-container">
                       <i class = "fa-visa"></i>
-                      <div class = card_img><img class = "visa" src = "../../media/visa.png"></div>
+                      <div class = card_img><img class = "visa" id = "visa" src = "../../media/visa.png"></div>
                       <i class = "fa-mastercard"></i>
-                      <div class = card_img><img class = "mastercard" src = "../../media/mastercard.jpg"></div>
+                      <div class = card_img><img class = "mastercard" id = "mastercard" src = "../../media/mastercard.jpg"></div>
                     </div>
 
                     <label for = "cname">Name on Card</label>
                     <input type = "text" id = "cname" name = "cardname" value = "<?php echo $cardname;?>"required>
-                    <label for = "ccnum"> Credit card number</label>
-                    <input type = "text" id = "ccnum" name = "cardnumber" placeholder = "XXXX-XXXX-XXXX-XXXX" value = "<?php if($submitbutton) {echo $number;}?>"required/>
-                    <?php
-                      if($submitbutton){
-                        if (validatecard($number) !== false){
-                          echo ".card_img{
-                            box-shadow: 1px 1px 1px 2px navy;
-                          }
-                          $type detected.credit card is valid";
-                        }else {
-                          echo "This credit card number is invalid";
-                        }
-                      }
+                    <label for = "cnum">Card number</label>
+                    <input id ="card number"  type = "text" placeholder = "1234 5678 9012 3456">
+                    <div class = "form-group" id = "exp-date">
+                    <label>Expiraiton Date</label>
+                    <select>
+                      <option value = "01">Jan</option>
+                      <option value = "02">Feb</option>
+                      <option value = "03">Mar</option>
+                      <option value = "04">Apr</option>
+                      <option value = "05">May</option>
+                      <option value = "06">Jun</option>
+                      <option value = "07">Jul</option>
+                      <option value = "08">Aug</option>
+                      <option value = "09">Sep</option>
+                      <option value = "10">Oct</option>
+                      <option value = "11">Nov</option>
+                      <option value = "12">Dec</option>
+                    </select>
+                    <select>
+                      <option value = "18">2018</option>
+                      <option value = "19">2019</option>
+                      <option value = "20">2020</option>
+                      <option value = "21">2021</option>
+                      <option value = "22">2022</option>
+                      <option value = "23">2023</option>
+                    </select>
+                  </div>
 
-
-                    ?>
-                    <br><br>
-                    <label for = "expmonth">Exp Month</label>
-                    <input type = "text" id = "expmonth" name = "expmonth" value = "<?php echo $expmonth;?>"required>
-                    <label for = "cvv">CVV</label>
-                    <input type = "text" id = "cvv" name = "cvv" value = "<?php echo $cvv;?>"required>
                     <div class = "row">
                       <div class = "col-25">
-                        <label for = "expyear">Exp Year</label>
-                        <input type = "text" id = "expyear" name = "expyear" value = "<?php echo $expyear;?>"required>
+
                       </div>
                       <label>
 
