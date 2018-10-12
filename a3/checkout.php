@@ -59,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     $cityERR = "Please enter your city";
   }else{
     $city = test_input($_POST["city"]);
-    if (!preg_match("/^[a-zA-Z]/*$/",$city)){
+    if (!preg_match("/^[a-zA-Z ]*$/",$city)){
       $cityERR = "Only letters allowed";
     }
   }
