@@ -51,7 +51,7 @@
     <div class = "productbox">
       <?php
         for($x = 1; $x < length($products); $x++){
-        echo "<img class = 'clothing' src = ".$cell[1]." alt = 'One-punch man t-shrt'>"
+      echo "<img class = 'clothing' src = ".$cell[1]." alt = 'One-punch man t-shrt'>";
       }
      ?>
       <!-- <img class = "clothing" src = '../../media/onepunch_shirt.jpg' alt = 'One-punch man t-shrt'> -->
