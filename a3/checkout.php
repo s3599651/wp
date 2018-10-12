@@ -89,6 +89,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     $cardnumberERR = "Please enter a card number";
   }else{
     $cardnumber = test_input($_POST["cardnumber"]);
+    if (!preg_match("/^4[0-9]{12}(?:[0-9]{3})?$/",$cardnumber)){
+      $cardnumberERR = "Please enter a valid card number";
+    }else if (!preg_match("/^5[1-5][0-9]{14}$/",$cardnumber)){
+      $cardnumberERR = "Please enter a valid card number";
 
   }
 }
@@ -208,7 +212,20 @@ function test_input($data){
                     <label for = "cname">Name on Card</label>
                     <input type = "text" id = "cname" name = "cardname" value = "<?php echo $cardname;?>"required>
                     <label for = "cnum">Card number</label>
-                    <input id ="card number"  type = "text" placeholder = "1234 5678 9012 3456">
+                    <input id ="card number"  type = "text" name = "number_entered" value = <?php if($submitbutton){echo "$number";}'?> 'placeholder = "1234 5678 9012 3456">
+                    <?php
+                      if($submitbutton)
+                      {
+                        if(validate($number)!== false){
+                          echo "<green>$type detected. credit card number is valid</green>";
+
+                        }else{
+                          echo "<red>This credit card number is invalid </red>";
+                        }
+                      }
+                    ?>
+
+                    <br><br>
                     <div class = "form-group" id = "exp-date">
                     <label>Expiraiton Date</label>
                     <select>
