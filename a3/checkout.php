@@ -212,7 +212,7 @@ function test_input($data){
                     <label for = "cname">Name on Card</label>
                     <input type = "text" id = "cname" name = "cardname" value = "<?php echo $cardname;?>"required>
                     <label for = "cnum">Card number</label>
-                    <input id ="card number"  type = "text" name = "number_entered" value = <?php if($submitbutton){echo "$number";}?> placeholder = "1234 5678 9012 3456">
+                    <input id ="card number"  type = "text" name = "number_entered" value = <?php if($submitbutton){echo "$number";}?> placeholder = "1234 5678 9012 3456"/>
                     <?php
                       if($submitbutton)
                       {
