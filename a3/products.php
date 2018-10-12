@@ -9,6 +9,7 @@
     while($cells = fgetcsv($fp, 0, "\t") ){
       for ($x = 1; $x<count($cells); $x++)
         $products[$cells[0]][$headings[$x]]=$cells[$x];
+        echo "Cells ".$x." : ".$cells[$x];
     }
   }
   fclose($fp);
