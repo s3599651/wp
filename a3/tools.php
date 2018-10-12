@@ -15,6 +15,7 @@ function head($Assignment2, $onLoad = ''){
       <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
       <link href = "https://fonts.googleapis.com/css?family=Arimo" rel = "stylesheet">
       <script src='../wireframe.js'></script>
+      <script src ='buttons.js'></script>
     </head>
 HEAD;
   echo $output;

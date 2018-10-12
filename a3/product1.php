@@ -54,6 +54,7 @@
         </select>
         </div>
         <br>
+        <p class = "total">$25.50</p>
         <div class = "submitbox"><input type = "submit" value = "Add to Cart"></div>
         </form>
         </div>
