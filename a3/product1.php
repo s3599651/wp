@@ -54,7 +54,7 @@
         </select>
         </div>
         <br>
-        <p class = "total">$25.50</p>
+        <p>Total:<input type = "text" class  = "total" value = "$25.50" disabled></p>
         <br>
         <div class = "submitbox"><input type = "submit" value = "Add to Cart"></div>
         </form>
