@@ -29,7 +29,7 @@
       <article class = 'Welcome'>
       <h1> T-SHIRT </h1>
       <div class = "productbox_1">
-        <img class = "clothing_2" src = '../../media/anime jumper.jpg' alt = 'printed jumper'>
+        <img class = "clothing_1" src = '../../media/anime jumper.jpg' alt = 'printed jumper'>
       <div class = "product_info">
         <p> Printed T-shirt</p>
         <hr>
@@ -53,6 +53,8 @@
           <option value="large">L</option>
         </select>
         </div>
+        <br>
+        <p class = "total">$25.50</p>
         <br>
         <div class = "submitbox"><input type = "submit" value = "Add to Cart"></div>
         </form>
