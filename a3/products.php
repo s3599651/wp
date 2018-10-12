@@ -9,11 +9,11 @@
     //echo "headings : ".$headings;
     var_dump($headings);
     while($cells = fgetcsv($fp, 0, "\t") ){
-      echo "</hr>";
+      echo "<hr/>";
       var_dump($cells);
-      for ($x = 1; $x < count($cells); $x++) {
+      for ($x = 0; $x < count($cells); $x++) {
         var_dump($cells[$x]);
-        echo "</hr>";
+        echo "<hr/>";
         $products[$cells[0]][$headings[$x]]=$cells[$x];
         echo "Cells ".$x." : ".$cells[$x];
       }
