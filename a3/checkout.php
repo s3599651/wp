@@ -89,11 +89,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     $cardnumberERR = "Please enter a card number";
   }else{
     $cardnumber = test_input($_POST["cardnumber"]);
-    if (!preg_match("/^4[0-9]{12}(?:[0-9]{3})?$/",$cardnumber)){
-      $cardnumberERR = "Please enter a valid card number";
-    }else if (!preg_match("/^5[1-5][0-9]{14}$/",$cardnumber)){
-      $cardnumberERR = "Please enter a valid card number";
-
   }
 }
 //code for cardnumber validation => http://www.learningaboutelectronics.com/Articles/How-to-validate-a-credit-card-number-using-PHP.php
