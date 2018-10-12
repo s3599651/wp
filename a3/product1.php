@@ -7,8 +7,15 @@
   if (isset($_GET['id']) && $_GET['id'] == "p1"){
 
 
-
-
+    $fp = fopen('products.txt', 'r');
+    if(($headings = fgetcsv($fp, 0 , "\t")) !== false){
+      while($cells = fgetcsv($fp, 0, "\t") ){
+        for ($x = 1; $x<count($cells); $x++)
+          $products[$cells[0]][$headings[$x]]=$cells[$x];
+      }
+    }
+    fclose($fp);
+    preShow($products);
 
 ?>
   <body>
@@ -36,7 +43,7 @@
         <hr>
         <p> Tee from the popular anime series One punch man </p>
         <hr>
-        <p> $25.00 </p>
+        <p> $25.50 </p>
         <hr>
         <form method = "post" action = "cart.php">
         <input type = "hidden" id = "name" name = "id" value = "tshirt0001">

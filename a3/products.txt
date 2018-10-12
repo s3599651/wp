@@ -1,1 +1,4 @@
 ID  OID Title Description Option  Price
+p1  onepunch_shirt.jpg  Tee from the popular anime series One punch man.  small 25.5
+p2  anime jumper.jpg  Tee containing a printed picture of some of the most popular anime characters.  large 25.5
+p3  dragonball_trackpants.jpeg  Grey Trackpants with the Dragonball logo. medium  25.5  

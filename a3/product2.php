@@ -35,7 +35,7 @@
         <hr>
         <p> Tee containing a printed picture of some of the most popular anime characters</p>
         <hr>
-        <p> $25.00 </p>
+        <p> $25.50 </p>
         <hr>
         <form method = "post" action = "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php">
         <input type = "hidden" id = "name" name = "id" value = "tshirt0001">
