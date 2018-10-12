@@ -3,7 +3,7 @@
   include_once('tools.php');
 
   head('Products');
-
+  $products;
   $fp = fopen('products.txt', 'r');
   if(($headings = fgetcsv($fp, 0 , "\t")) !== false){
     //echo "headings : ".$headings;
